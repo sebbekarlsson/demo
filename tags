@@ -1,0 +1,849 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLSPHINXOPTS	libraries/requests/docs/Makefile	/^ALLSPHINXOPTS   = -d $(BUILDDIR)\/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m
+ALLSPHINXOPTS	libraries/requests/docs/make.bat	/^	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%$/;"	v
+ALLSPHINXOPTS	libraries/requests/docs/make.bat	/^set ALLSPHINXOPTS=-d %BUILDDIR%\/doctrees %SPHINXOPTS% .$/;"	v
+AuthBase	libraries/requests/requests/auth.py	/^class AuthBase(object):$/;"	c
+BUILDDIR	libraries/requests/docs/Makefile	/^BUILDDIR      = _build$/;"	m
+BUILDDIR	libraries/requests/docs/make.bat	/^set BUILDDIR=_build$/;"	v
+BadFileObj	libraries/requests/tests/test_requests.py	/^        class BadFileObj:$/;"	c	function:TestRequests.test_rewind_body_failed_seek
+BadFileObj	libraries/requests/tests/test_requests.py	/^        class BadFileObj:$/;"	c	function:TestRequests.test_rewind_body_failed_tell
+BadFileObj	libraries/requests/tests/test_requests.py	/^        class BadFileObj:$/;"	c	function:TestRequests.test_rewind_body_no_seek
+BaseAdapter	libraries/requests/requests/adapters.py	/^class BaseAdapter(object):$/;"	c
+BoomFile	libraries/requests/tests/test_utils.py	/^        class BoomFile(object):$/;"	c	function:TestSuperLen.test_super_len_handles_files_raising_weird_errors_in_tell
+CONTENT_CHUNK_SIZE	libraries/requests/requests/models.py	/^CONTENT_CHUNK_SIZE = 10 * 1024$/;"	v
+CONTENT_TYPE_FORM_URLENCODED	libraries/requests/requests/auth.py	/^CONTENT_TYPE_FORM_URLENCODED = 'application\/x-www-form-urlencoded'$/;"	v
+CONTENT_TYPE_MULTI_PART	libraries/requests/requests/auth.py	/^CONTENT_TYPE_MULTI_PART = 'multipart\/form-data'$/;"	v
+CaseInsensitiveDict	libraries/requests/requests/structures.py	/^class CaseInsensitiveDict(MutableMapping):$/;"	c
+ChunkedEncodingError	libraries/requests/requests/exceptions.py	/^class ChunkedEncodingError(RequestException):$/;"	c
+Close	libraries/requests/tests/test_utils.py	/^        def Close(self):$/;"	m	class:test_should_bypass_proxies_win_registry.RegHandle
+ConnectTimeout	libraries/requests/requests/exceptions.py	/^class ConnectTimeout(ConnectionError, Timeout):$/;"	c
+ConnectionError	libraries/requests/requests/exceptions.py	/^class ConnectionError(RequestException):$/;"	c
+ContentDecodingError	libraries/requests/requests/exceptions.py	/^class ContentDecodingError(RequestException, BaseHTTPError):$/;"	c
+CookieConflictError	libraries/requests/requests/cookies.py	/^class CookieConflictError(RuntimeError):$/;"	c
+CustomMapping	libraries/requests/tests/test_requests.py	/^        class CustomMapping(MutableMapping):$/;"	c	function:TestRequests.test_post_with_custom_mapping
+CustomRedirectSession	libraries/requests/tests/test_requests.py	/^        class CustomRedirectSession(requests.Session):$/;"	c	function:TestRequests.test_custom_redirect_mixin
+DEFAULT_CA_BUNDLE_PATH	libraries/requests/requests/utils.py	/^DEFAULT_CA_BUNDLE_PATH = certs.where()$/;"	v
+DEFAULT_POOLBLOCK	libraries/requests/requests/adapters.py	/^DEFAULT_POOLBLOCK = False$/;"	v
+DEFAULT_POOLSIZE	libraries/requests/requests/adapters.py	/^DEFAULT_POOLSIZE = 10$/;"	v
+DEFAULT_POOL_TIMEOUT	libraries/requests/requests/adapters.py	/^DEFAULT_POOL_TIMEOUT = None$/;"	v
+DEFAULT_PORTS	libraries/requests/requests/utils.py	/^DEFAULT_PORTS = {'http': 80, 'https': 443}$/;"	v
+DEFAULT_REDIRECT_LIMIT	libraries/requests/requests/models.py	/^DEFAULT_REDIRECT_LIMIT = 30$/;"	v
+DEFAULT_RETRIES	libraries/requests/requests/adapters.py	/^DEFAULT_RETRIES = 0$/;"	v
+DummyAuth	libraries/requests/tests/test_requests.py	/^        class DummyAuth(requests.auth.AuthBase):$/;"	c	function:TestRequests.test_prepared_from_session
+ENCODED_PASSWORD	libraries/requests/tests/test_utils.py	/^ENCODED_PASSWORD = compat.quote(PASSWORD, '')$/;"	v
+ENCODED_USER	libraries/requests/tests/test_utils.py	/^ENCODED_USER = compat.quote(USER, '')$/;"	v
+FileModeWarning	libraries/requests/requests/exceptions.py	/^class FileModeWarning(RequestsWarning, DeprecationWarning):$/;"	c
+FlaskyStyle	libraries/requests/docs/_themes/flask_theme_support.py	/^class FlaskyStyle(Style):$/;"	c
+HAS_MODERN_SSL	libraries/requests/tests/test_requests.py	/^    HAS_MODERN_SSL = False$/;"	v
+HAS_MODERN_SSL	libraries/requests/tests/test_requests.py	/^    HAS_MODERN_SSL = True$/;"	v
+HAS_PYOPENSSL	libraries/requests/tests/test_requests.py	/^    HAS_PYOPENSSL = False$/;"	v
+HAS_PYOPENSSL	libraries/requests/tests/test_requests.py	/^    HAS_PYOPENSSL = True$/;"	v
+HOOKS	libraries/requests/requests/hooks.py	/^HOOKS = ['response']$/;"	v
+HTTPAdapter	libraries/requests/requests/adapters.py	/^class HTTPAdapter(BaseAdapter):$/;"	c
+HTTPBasicAuth	libraries/requests/requests/auth.py	/^class HTTPBasicAuth(AuthBase):$/;"	c
+HTTPDigestAuth	libraries/requests/requests/auth.py	/^class HTTPDigestAuth(AuthBase):$/;"	c
+HTTPError	libraries/requests/requests/exceptions.py	/^class HTTPError(RequestException):$/;"	c
+HTTPProxyAuth	libraries/requests/requests/auth.py	/^class HTTPProxyAuth(HTTPBasicAuth):$/;"	c
+I18NSPHINXOPTS	libraries/requests/docs/Makefile	/^I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .$/;"	m
+I18NSPHINXOPTS	libraries/requests/docs/make.bat	/^	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%$/;"	v
+I18NSPHINXOPTS	libraries/requests/docs/make.bat	/^set I18NSPHINXOPTS=%SPHINXOPTS% .$/;"	v
+ITER_CHUNK_SIZE	libraries/requests/requests/models.py	/^ITER_CHUNK_SIZE = 512$/;"	v
+InvalidHeader	libraries/requests/requests/exceptions.py	/^class InvalidHeader(RequestException, ValueError):$/;"	c
+InvalidProxyURL	libraries/requests/requests/exceptions.py	/^class InvalidProxyURL(InvalidURL):$/;"	c
+InvalidSchema	libraries/requests/requests/exceptions.py	/^class InvalidSchema(RequestException, ValueError):$/;"	c
+InvalidURL	libraries/requests/requests/exceptions.py	/^class InvalidURL(RequestException, ValueError):$/;"	c
+LenFile	libraries/requests/tests/test_utils.py	/^        class LenFile(object):$/;"	c	function:TestSuperLen.test_super_len_with_no__len__
+LookupDict	libraries/requests/requests/structures.py	/^class LookupDict(dict):$/;"	c
+MissingSchema	libraries/requests/requests/exceptions.py	/^class MissingSchema(RequestException, ValueError):$/;"	c
+MockRequest	libraries/requests/requests/cookies.py	/^class MockRequest(object):$/;"	c
+MockResponse	libraries/requests/requests/cookies.py	/^class MockResponse(object):$/;"	c
+MyCookiePolicy	libraries/requests/tests/test_requests.py	/^        class MyCookiePolicy(cookielib.DefaultCookiePolicy):$/;"	c	function:TestRequests.test_cookie_policy_copy
+NETRC_FILES	libraries/requests/requests/utils.py	/^NETRC_FILES = ('.netrc', '_netrc')$/;"	v
+NoLenBoomFile	libraries/requests/tests/test_utils.py	/^        class NoLenBoomFile(object):$/;"	c	function:TestSuperLen.test_super_len_tell_ioerror
+OpenKey	libraries/requests/tests/test_utils.py	/^    def OpenKey(key, subkey):$/;"	f	function:test_should_bypass_proxies_win_registry
+OpenSSL	libraries/requests/requests/help.py	/^    OpenSSL = None$/;"	v
+PAPER	libraries/requests/docs/Makefile	/^PAPER         =$/;"	m
+PAPER	libraries/requests/docs/make.bat	/^	echo.  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter$/;"	v
+PAPEROPT_a4	libraries/requests/docs/Makefile	/^PAPEROPT_a4     = -D latex_paper_size=a4$/;"	m
+PAPEROPT_letter	libraries/requests/docs/Makefile	/^PAPEROPT_letter = -D latex_paper_size=letter$/;"	m
+PreparedRequest	libraries/requests/requests/models.py	/^class PreparedRequest(RequestEncodingMixin, RequestHooksMixin):$/;"	c
+ProxyError	libraries/requests/requests/exceptions.py	/^class ProxyError(ConnectionError):$/;"	c
+PyTest	libraries/requests/setup.py	/^class PyTest(TestCommand):$/;"	c
+QueryValueEx	libraries/requests/tests/test_utils.py	/^    def QueryValueEx(key, value_name):$/;"	f	function:test_should_bypass_proxies_win_registry
+REDIRECT_STATI	libraries/requests/requests/models.py	/^REDIRECT_STATI = ($/;"	v
+ReadTimeout	libraries/requests/requests/exceptions.py	/^class ReadTimeout(Timeout):$/;"	c
+RedirectSession	libraries/requests/tests/test_requests.py	/^class RedirectSession(SessionRedirectMixin):$/;"	c
+RegHandle	libraries/requests/tests/test_utils.py	/^    class RegHandle:$/;"	c	function:test_should_bypass_proxies_win_registry
+Request	libraries/requests/requests/models.py	/^class Request(RequestHooksMixin):$/;"	c
+RequestEncodingMixin	libraries/requests/requests/models.py	/^class RequestEncodingMixin(object):$/;"	c
+RequestException	libraries/requests/requests/exceptions.py	/^class RequestException(IOError):$/;"	c
+RequestHooksMixin	libraries/requests/requests/models.py	/^class RequestHooksMixin(object):$/;"	c
+RequestsCookieJar	libraries/requests/requests/cookies.py	/^class RequestsCookieJar(cookielib.CookieJar, MutableMapping):$/;"	c
+RequestsDependencyWarning	libraries/requests/requests/exceptions.py	/^class RequestsDependencyWarning(RequestsWarning):$/;"	c
+RequestsWarning	libraries/requests/requests/exceptions.py	/^class RequestsWarning(Warning):$/;"	c
+Response	libraries/requests/requests/models.py	/^class Response(object):$/;"	c
+RetryError	libraries/requests/requests/exceptions.py	/^class RetryError(RequestException):$/;"	c
+SOCKSProxyManager	libraries/requests/requests/adapters.py	/^    def SOCKSProxyManager(*args, **kwargs):$/;"	f
+SPHINXBUILD	libraries/requests/docs/Makefile	/^SPHINXBUILD   = sphinx-build$/;"	m
+SPHINXBUILD	libraries/requests/docs/make.bat	/^	set SPHINXBUILD=sphinx-build$/;"	v
+SPHINXBUILD	libraries/requests/docs/make.bat	/^set SPHINXBUILD=python -m sphinx.__init__$/;"	v
+SPHINXOPTS	libraries/requests/docs/Makefile	/^SPHINXOPTS    =$/;"	m
+SSLError	libraries/requests/requests/exceptions.py	/^class SSLError(ConnectionError):$/;"	c
+SendCall	libraries/requests/tests/test_requests.py	/^SendCall = collections.namedtuple('SendCall', ('args', 'kwargs'))$/;"	v
+Server	libraries/requests/tests/testserver/server.py	/^class Server(threading.Thread):$/;"	c
+Session	libraries/requests/requests/sessions.py	/^class Session(SessionRedirectMixin):$/;"	c
+SessionRedirectMixin	libraries/requests/requests/sessions.py	/^class SessionRedirectMixin(object):$/;"	c
+StreamConsumedError	libraries/requests/requests/exceptions.py	/^class StreamConsumedError(RequestException, TypeError):$/;"	c
+TARPIT	libraries/requests/tests/test_requests.py	/^TARPIT = 'http:\/\/10.255.255.1'$/;"	v
+TestAddressInNetwork	libraries/requests/tests/test_utils.py	/^class TestAddressInNetwork:$/;"	c
+TestCaseInsensitiveDict	libraries/requests/tests/test_requests.py	/^class TestCaseInsensitiveDict:$/;"	c
+TestCaseInsensitiveDict	libraries/requests/tests/test_structures.py	/^class TestCaseInsensitiveDict:$/;"	c
+TestContentEncodingDetection	libraries/requests/tests/test_utils.py	/^class TestContentEncodingDetection:$/;"	c
+TestExtractZippedPaths	libraries/requests/tests/test_utils.py	/^class TestExtractZippedPaths:$/;"	c
+TestGetEnvironProxies	libraries/requests/tests/test_utils.py	/^class TestGetEnvironProxies:$/;"	c
+TestGuessFilename	libraries/requests/tests/test_utils.py	/^class TestGuessFilename:$/;"	c
+TestGuessJSONUTF	libraries/requests/tests/test_utils.py	/^class TestGuessJSONUTF:$/;"	c
+TestIsIPv4Address	libraries/requests/tests/test_utils.py	/^class TestIsIPv4Address:$/;"	c
+TestIsValidCIDR	libraries/requests/tests/test_utils.py	/^class TestIsValidCIDR:$/;"	c
+TestLookupDict	libraries/requests/tests/test_structures.py	/^class TestLookupDict:$/;"	c
+TestMorselToCookieExpires	libraries/requests/tests/test_requests.py	/^class TestMorselToCookieExpires:$/;"	c
+TestMorselToCookieMaxAge	libraries/requests/tests/test_requests.py	/^class TestMorselToCookieMaxAge:$/;"	c
+TestPreparingURLs	libraries/requests/tests/test_requests.py	/^class TestPreparingURLs(object):$/;"	c
+TestRequests	libraries/requests/tests/test_requests.py	/^class TestRequests:$/;"	c
+TestStream	libraries/requests/tests/test_requests.py	/^        class TestStream(object):$/;"	c	function:TestRequests.test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER
+TestSuperLen	libraries/requests/tests/test_utils.py	/^class TestSuperLen:$/;"	c
+TestTestServer	libraries/requests/tests/test_testserver.py	/^class TestTestServer:$/;"	c
+TestTimeout	libraries/requests/tests/test_requests.py	/^class TestTimeout:$/;"	c
+TestToKeyValList	libraries/requests/tests/test_utils.py	/^class TestToKeyValList:$/;"	c
+TestUnquoteHeaderValue	libraries/requests/tests/test_utils.py	/^class TestUnquoteHeaderValue:$/;"	c
+Timeout	libraries/requests/requests/exceptions.py	/^class Timeout(RequestException):$/;"	c
+TooManyRedirects	libraries/requests/requests/exceptions.py	/^class TooManyRedirects(RequestException):$/;"	c
+UNRESERVED_SET	libraries/requests/requests/utils.py	/^UNRESERVED_SET = frozenset($/;"	v
+URLRequired	libraries/requests/requests/exceptions.py	/^class URLRequired(RequestException):$/;"	c
+UnrewindableBodyError	libraries/requests/requests/exceptions.py	/^class UnrewindableBodyError(RequestException):$/;"	c
+VersionedPackage	libraries/requests/tests/test_help.py	/^class VersionedPackage(object):$/;"	c
+WAIT_EVENT_TIMEOUT	libraries/requests/tests/testserver/server.py	/^    WAIT_EVENT_TIMEOUT = 5$/;"	v	class:Server
+_CLEAN_HEADER_REGEX_BYTE	libraries/requests/requests/utils.py	/^_CLEAN_HEADER_REGEX_BYTE = re.compile(b'^\\\\S[^\\\\r\\\\n]*$|^$')$/;"	v
+_CLEAN_HEADER_REGEX_STR	libraries/requests/requests/utils.py	/^_CLEAN_HEADER_REGEX_STR = re.compile(r'^\\S[^\\r\\n]*$|^$')$/;"	v
+__attrs__	libraries/requests/requests/adapters.py	/^    __attrs__ = ['max_retries', 'config', '_pool_connections', '_pool_maxsize',$/;"	v	class:HTTPAdapter
+__attrs__	libraries/requests/requests/models.py	/^    __attrs__ = [$/;"	v	class:Response
+__attrs__	libraries/requests/requests/sessions.py	/^    __attrs__ = [$/;"	v	class:Session
+__author__	libraries/requests/requests/__version__.py	/^__author__ = 'Kenneth Reitz'$/;"	v
+__author_email__	libraries/requests/requests/__version__.py	/^__author_email__ = 'me@kennethreitz.org'$/;"	v
+__bool__	libraries/requests/requests/models.py	/^    def __bool__(self):$/;"	m	class:Response	file:
+__build__	libraries/requests/requests/__version__.py	/^__build__ = 0x022501$/;"	v
+__cake__	libraries/requests/requests/__version__.py	/^__cake__ = u'\\u2728 \\U0001f370 \\u2728'$/;"	v
+__call__	libraries/requests/requests/auth.py	/^    def __call__(self, r):$/;"	m	class:AuthBase	file:
+__call__	libraries/requests/requests/auth.py	/^    def __call__(self, r):$/;"	m	class:HTTPBasicAuth	file:
+__call__	libraries/requests/requests/auth.py	/^    def __call__(self, r):$/;"	m	class:HTTPDigestAuth	file:
+__call__	libraries/requests/requests/auth.py	/^    def __call__(self, r):$/;"	m	class:HTTPProxyAuth	file:
+__call__	libraries/requests/tests/test_requests.py	/^            def __call__(self, r):$/;"	m	class:TestRequests.test_prepared_from_session.DummyAuth	file:
+__contains__	libraries/requests/requests/cookies.py	/^    def __contains__(self, name):$/;"	m	class:RequestsCookieJar	file:
+__copyright__	libraries/requests/requests/__version__.py	/^__copyright__ = 'Copyright 2020 Kenneth Reitz'$/;"	v
+__delitem__	libraries/requests/requests/cookies.py	/^    def __delitem__(self, name):$/;"	m	class:RequestsCookieJar	file:
+__delitem__	libraries/requests/requests/structures.py	/^    def __delitem__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__delitem__	libraries/requests/tests/test_requests.py	/^            def __delitem__(self, key):$/;"	m	class:TestRequests.test_post_with_custom_mapping.CustomMapping	file:
+__description__	libraries/requests/requests/__version__.py	/^__description__ = 'Python HTTP for Humans.'$/;"	v
+__enter__	libraries/requests/requests/models.py	/^    def __enter__(self):$/;"	m	class:Response	file:
+__enter__	libraries/requests/requests/sessions.py	/^    def __enter__(self):$/;"	m	class:Session	file:
+__enter__	libraries/requests/tests/testserver/server.py	/^    def __enter__(self):$/;"	m	class:Server	file:
+__eq__	libraries/requests/requests/auth.py	/^    def __eq__(self, other):$/;"	m	class:HTTPBasicAuth	file:
+__eq__	libraries/requests/requests/auth.py	/^    def __eq__(self, other):$/;"	m	class:HTTPDigestAuth	file:
+__eq__	libraries/requests/requests/structures.py	/^    def __eq__(self, other):$/;"	m	class:CaseInsensitiveDict	file:
+__exit__	libraries/requests/requests/models.py	/^    def __exit__(self, *args):$/;"	m	class:Response	file:
+__exit__	libraries/requests/requests/sessions.py	/^    def __exit__(self, *args):$/;"	m	class:Session	file:
+__exit__	libraries/requests/tests/testserver/server.py	/^    def __exit__(self, exc_type, exc_value, traceback):$/;"	m	class:Server	file:
+__getitem__	libraries/requests/requests/cookies.py	/^    def __getitem__(self, name):$/;"	m	class:RequestsCookieJar	file:
+__getitem__	libraries/requests/requests/structures.py	/^    def __getitem__(self, key):$/;"	m	class:CaseInsensitiveDict	file:
+__getitem__	libraries/requests/requests/structures.py	/^    def __getitem__(self, key):$/;"	m	class:LookupDict	file:
+__getitem__	libraries/requests/tests/test_requests.py	/^            def __getitem__(self, key):$/;"	m	class:TestRequests.test_post_with_custom_mapping.CustomMapping	file:
+__getstate__	libraries/requests/requests/adapters.py	/^    def __getstate__(self):$/;"	m	class:HTTPAdapter	file:
+__getstate__	libraries/requests/requests/cookies.py	/^    def __getstate__(self):$/;"	m	class:RequestsCookieJar	file:
+__getstate__	libraries/requests/requests/models.py	/^    def __getstate__(self):$/;"	m	class:Response	file:
+__getstate__	libraries/requests/requests/sessions.py	/^    def __getstate__(self):$/;"	m	class:Session	file:
+__init__	libraries/requests/requests/adapters.py	/^    def __init__(self):$/;"	m	class:BaseAdapter
+__init__	libraries/requests/requests/adapters.py	/^    def __init__(self, pool_connections=DEFAULT_POOLSIZE,$/;"	m	class:HTTPAdapter
+__init__	libraries/requests/requests/auth.py	/^    def __init__(self, username, password):$/;"	m	class:HTTPBasicAuth
+__init__	libraries/requests/requests/auth.py	/^    def __init__(self, username, password):$/;"	m	class:HTTPDigestAuth
+__init__	libraries/requests/requests/cookies.py	/^    def __init__(self, headers):$/;"	m	class:MockResponse
+__init__	libraries/requests/requests/cookies.py	/^    def __init__(self, request):$/;"	m	class:MockRequest
+__init__	libraries/requests/requests/exceptions.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:RequestException
+__init__	libraries/requests/requests/models.py	/^    def __init__(self):$/;"	m	class:PreparedRequest
+__init__	libraries/requests/requests/models.py	/^    def __init__(self):$/;"	m	class:Response
+__init__	libraries/requests/requests/models.py	/^    def __init__(self,$/;"	m	class:Request
+__init__	libraries/requests/requests/sessions.py	/^    def __init__(self):$/;"	m	class:Session
+__init__	libraries/requests/requests/structures.py	/^    def __init__(self, data=None, **kwargs):$/;"	m	class:CaseInsensitiveDict
+__init__	libraries/requests/requests/structures.py	/^    def __init__(self, name=None):$/;"	m	class:LookupDict
+__init__	libraries/requests/tests/test_help.py	/^    def __init__(self, version):$/;"	m	class:VersionedPackage
+__init__	libraries/requests/tests/test_requests.py	/^            def __init__(self, *args, **kwargs):$/;"	m	class:TestRequests.test_post_with_custom_mapping.CustomMapping
+__init__	libraries/requests/tests/test_requests.py	/^            def __init__(self, data):$/;"	m	class:TestRequests.test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.TestStream
+__init__	libraries/requests/tests/test_requests.py	/^            def __init__(self, data):$/;"	m	class:TestRequests.test_rewind_body_failed_seek.BadFileObj
+__init__	libraries/requests/tests/test_requests.py	/^            def __init__(self, data):$/;"	m	class:TestRequests.test_rewind_body_failed_tell.BadFileObj
+__init__	libraries/requests/tests/test_requests.py	/^            def __init__(self, data):$/;"	m	class:TestRequests.test_rewind_body_no_seek.BadFileObj
+__init__	libraries/requests/tests/test_requests.py	/^    def __init__(self, order_of_redirects):$/;"	m	class:RedirectSession
+__init__	libraries/requests/tests/test_utils.py	/^            def __init__(self):$/;"	m	class:TestSuperLen.test_super_len_with_no__len__.LenFile
+__init__	libraries/requests/tests/testserver/server.py	/^    def __init__(self, handler=None, host='localhost', port=0, requests_to_handle=1, wait_to_close_event=None):$/;"	m	class:Server
+__iter__	libraries/requests/requests/models.py	/^    def __iter__(self):$/;"	m	class:Response	file:
+__iter__	libraries/requests/requests/structures.py	/^    def __iter__(self):$/;"	m	class:CaseInsensitiveDict	file:
+__iter__	libraries/requests/tests/test_requests.py	/^            def __iter__(self):$/;"	m	class:TestRequests.test_post_with_custom_mapping.CustomMapping	file:
+__iter__	libraries/requests/tests/test_requests.py	/^            def __iter__(self):$/;"	m	class:TestRequests.test_rewind_body_failed_seek.BadFileObj	file:
+__iter__	libraries/requests/tests/test_requests.py	/^            def __iter__(self):$/;"	m	class:TestRequests.test_rewind_body_failed_tell.BadFileObj	file:
+__iter__	libraries/requests/tests/test_requests.py	/^            def __iter__(self):$/;"	m	class:TestRequests.test_rewind_body_no_seek.BadFileObj	file:
+__len__	libraries/requests/requests/structures.py	/^    def __len__(self):$/;"	m	class:CaseInsensitiveDict	file:
+__len__	libraries/requests/tests/test_requests.py	/^            def __len__(self):$/;"	m	class:TestRequests.test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.TestStream	file:
+__len__	libraries/requests/tests/test_requests.py	/^            def __len__(self):$/;"	m	class:TestRequests.test_post_with_custom_mapping.CustomMapping	file:
+__len__	libraries/requests/tests/test_utils.py	/^            def __len__(self):$/;"	m	class:TestSuperLen.test_super_len_handles_files_raising_weird_errors_in_tell.BoomFile	file:
+__license__	libraries/requests/requests/__version__.py	/^__license__ = 'Apache 2.0'$/;"	v
+__ne__	libraries/requests/requests/auth.py	/^    def __ne__(self, other):$/;"	m	class:HTTPBasicAuth	file:
+__ne__	libraries/requests/requests/auth.py	/^    def __ne__(self, other):$/;"	m	class:HTTPDigestAuth	file:
+__nonzero__	libraries/requests/requests/models.py	/^    def __nonzero__(self):$/;"	m	class:Response	file:
+__repr__	libraries/requests/requests/models.py	/^    def __repr__(self):$/;"	m	class:PreparedRequest	file:
+__repr__	libraries/requests/requests/models.py	/^    def __repr__(self):$/;"	m	class:Request	file:
+__repr__	libraries/requests/requests/models.py	/^    def __repr__(self):$/;"	m	class:Response	file:
+__repr__	libraries/requests/requests/structures.py	/^    def __repr__(self):$/;"	m	class:CaseInsensitiveDict	file:
+__repr__	libraries/requests/requests/structures.py	/^    def __repr__(self):$/;"	m	class:LookupDict	file:
+__setitem__	libraries/requests/requests/cookies.py	/^    def __setitem__(self, name, value):$/;"	m	class:RequestsCookieJar	file:
+__setitem__	libraries/requests/requests/structures.py	/^    def __setitem__(self, key, value):$/;"	m	class:CaseInsensitiveDict	file:
+__setitem__	libraries/requests/tests/test_requests.py	/^            def __setitem__(self, key, value):$/;"	m	class:TestRequests.test_post_with_custom_mapping.CustomMapping	file:
+__setstate__	libraries/requests/requests/adapters.py	/^    def __setstate__(self, state):$/;"	m	class:HTTPAdapter	file:
+__setstate__	libraries/requests/requests/cookies.py	/^    def __setstate__(self, state):$/;"	m	class:RequestsCookieJar	file:
+__setstate__	libraries/requests/requests/models.py	/^    def __setstate__(self, state):$/;"	m	class:Response	file:
+__setstate__	libraries/requests/requests/sessions.py	/^    def __setstate__(self, state):$/;"	m	class:Session	file:
+__title__	libraries/requests/requests/__version__.py	/^__title__ = 'requests'$/;"	v
+__url__	libraries/requests/requests/__version__.py	/^__url__ = 'https:\/\/requests.readthedocs.io'$/;"	v
+__version__	libraries/requests/requests/__version__.py	/^__version__ = '2.25.1'$/;"	v
+_accept_connection	libraries/requests/tests/testserver/server.py	/^    def _accept_connection(self):$/;"	m	class:Server
+_basic_auth_str	libraries/requests/requests/auth.py	/^def _basic_auth_str(username, password):$/;"	f
+_build_raw	libraries/requests/tests/test_requests.py	/^    def _build_raw(self):$/;"	m	class:RedirectSession
+_check_cryptography	libraries/requests/requests/__init__.py	/^def _check_cryptography(cryptography_version):$/;"	f
+_close_server_sock_ignore_errors	libraries/requests/tests/testserver/server.py	/^    def _close_server_sock_ignore_errors(self):$/;"	m	class:Server
+_codes	libraries/requests/requests/status_codes.py	/^_codes = {$/;"	v
+_copy_cookie_jar	libraries/requests/requests/cookies.py	/^def _copy_cookie_jar(jar):$/;"	f
+_create_socket_and_bind	libraries/requests/tests/testserver/server.py	/^    def _create_socket_and_bind(self):$/;"	m	class:Server
+_encode_files	libraries/requests/requests/models.py	/^    def _encode_files(files, data):$/;"	m	class:RequestEncodingMixin
+_encode_params	libraries/requests/requests/models.py	/^    def _encode_params(data):$/;"	m	class:RequestEncodingMixin
+_find	libraries/requests/requests/cookies.py	/^    def _find(self, name, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+_find_no_duplicates	libraries/requests/requests/cookies.py	/^    def _find_no_duplicates(self, name, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+_get_idna_encoded_host	libraries/requests/requests/models.py	/^    def _get_idna_encoded_host(host):$/;"	m	class:PreparedRequest
+_handle_requests	libraries/requests/tests/testserver/server.py	/^    def _handle_requests(self):$/;"	m	class:Server
+_implementation	libraries/requests/requests/help.py	/^def _implementation():$/;"	f
+_init	libraries/requests/requests/status_codes.py	/^def _init():$/;"	f
+_null	libraries/requests/requests/utils.py	/^_null = '\\x00'.encode('ascii')  # encoding to ASCII for Python 3$/;"	v
+_null2	libraries/requests/requests/utils.py	/^_null2 = _null * 2$/;"	v
+_null3	libraries/requests/requests/utils.py	/^_null3 = _null * 3$/;"	v
+_parse_content_type_header	libraries/requests/requests/utils.py	/^def _parse_content_type_header(header):$/;"	f
+_patch_adapter_gzipped_redirect	libraries/requests/tests/test_requests.py	/^    def _patch_adapter_gzipped_redirect(self, session, url):$/;"	m	class:TestRequests
+_proxy_combos	libraries/requests/tests/test_lowlevel.py	/^_proxy_combos = []$/;"	v
+_schemes_by_var_prefix	libraries/requests/tests/test_lowlevel.py	/^_schemes_by_var_prefix = [$/;"	v
+_ver	libraries/requests/requests/compat.py	/^_ver = sys.version_info$/;"	v
+about	libraries/requests/setup.py	/^about = {}$/;"	v
+add_dict_to_cookiejar	libraries/requests/requests/utils.py	/^def add_dict_to_cookiejar(cj, cookie_dict):$/;"	f
+add_function_parentheses	libraries/requests/docs/conf.py	/^add_function_parentheses = False$/;"	v
+add_header	libraries/requests/requests/cookies.py	/^    def add_header(self, key, val):$/;"	m	class:MockRequest
+add_headers	libraries/requests/requests/adapters.py	/^    def add_headers(self, request, **kwargs):$/;"	m	class:HTTPAdapter
+add_module_names	libraries/requests/docs/conf.py	/^add_module_names = True$/;"	v
+add_unredirected_header	libraries/requests/requests/cookies.py	/^    def add_unredirected_header(self, name, value):$/;"	m	class:MockRequest
+address_in_network	libraries/requests/requests/utils.py	/^def address_in_network(ip, net):$/;"	f
+all_proxies	libraries/requests/tests/test_utils.py	/^all_proxies = {'all': 'socks5:\/\/http.proxy',$/;"	v
+apparent_encoding	libraries/requests/requests/models.py	/^    def apparent_encoding(self):$/;"	m	class:Response
+author	libraries/requests/docs/conf.py	/^author = u"Kenneth Reitz"$/;"	v
+author	libraries/requests/setup.py	/^    author=about['__author__'],$/;"	v
+author_email	libraries/requests/setup.py	/^    author_email=about['__author_email__'],$/;"	v
+background_color	libraries/requests/docs/_themes/flask_theme_support.py	/^    background_color = "#f8f8f8"$/;"	v	class:FlaskyStyle
+basestring	libraries/requests/requests/compat.py	/^    basestring = (str, bytes)$/;"	v
+basestring	libraries/requests/requests/compat.py	/^    basestring = basestring$/;"	v
+basic_response_server	libraries/requests/tests/testserver/server.py	/^    def basic_response_server(cls, **kwargs):$/;"	m	class:Server
+build_digest_header	libraries/requests/requests/auth.py	/^    def build_digest_header(self, method, url):$/;"	m	class:HTTPDigestAuth
+build_response	libraries/requests/requests/adapters.py	/^    def build_response(self, req, resp):$/;"	m	class:HTTPAdapter
+build_response	libraries/requests/tests/test_requests.py	/^        def build_response(*args, **kwargs):$/;"	f	function:TestRequests._patch_adapter_gzipped_redirect
+build_response	libraries/requests/tests/test_requests.py	/^    def build_response(self):$/;"	m	class:RedirectSession
+builtin_str	libraries/requests/requests/compat.py	/^    builtin_str = str$/;"	v
+bytes	libraries/requests/requests/compat.py	/^    bytes = bytes$/;"	v
+bytes	libraries/requests/requests/compat.py	/^    bytes = str$/;"	v
+cStringIO	libraries/requests/tests/compat.py	/^    cStringIO = None$/;"	v
+cert_verify	libraries/requests/requests/adapters.py	/^    def cert_verify(self, conn, url, verify, cert):$/;"	m	class:HTTPAdapter
+check_compatibility	libraries/requests/requests/__init__.py	/^def check_compatibility(urllib3_version, chardet_version):$/;"	f
+check_header_validity	libraries/requests/requests/utils.py	/^def check_header_validity(header):$/;"	f
+classifiers	libraries/requests/setup.py	/^    classifiers=[$/;"	v
+close	libraries/requests/requests/adapters.py	/^    def close(self):$/;"	m	class:BaseAdapter
+close	libraries/requests/requests/adapters.py	/^    def close(self):$/;"	m	class:HTTPAdapter
+close	libraries/requests/requests/models.py	/^    def close(self):$/;"	m	class:Response
+close	libraries/requests/requests/sessions.py	/^    def close(self):$/;"	m	class:Session
+cmdclass	libraries/requests/setup.py	/^    cmdclass={'test': PyTest},$/;"	v
+codes	libraries/requests/requests/status_codes.py	/^codes = LookupDict(name='status_codes')$/;"	v
+consume_socket_content	libraries/requests/tests/testserver/server.py	/^def consume_socket_content(sock, timeout=0.5):$/;"	f
+content	libraries/requests/requests/models.py	/^    def content(self):$/;"	m	class:Response
+cookiejar_from_dict	libraries/requests/requests/cookies.py	/^def cookiejar_from_dict(cookie_dict, cookiejar=None, overwrite=True):$/;"	f
+copy	libraries/requests/requests/cookies.py	/^    def copy(self):$/;"	m	class:RequestsCookieJar
+copy	libraries/requests/requests/models.py	/^    def copy(self):$/;"	m	class:PreparedRequest
+copy	libraries/requests/requests/structures.py	/^    def copy(self):$/;"	m	class:CaseInsensitiveDict
+create_cookie	libraries/requests/requests/cookies.py	/^def create_cookie(name, value, **kwargs):$/;"	f
+cryptography	libraries/requests/requests/help.py	/^    cryptography = None$/;"	v
+default_headers	libraries/requests/requests/utils.py	/^def default_headers():$/;"	f
+default_hooks	libraries/requests/requests/hooks.py	/^def default_hooks():$/;"	f
+default_style	libraries/requests/docs/_themes/flask_theme_support.py	/^    default_style = ""$/;"	v	class:FlaskyStyle
+default_user_agent	libraries/requests/requests/utils.py	/^def default_user_agent(name="python-requests"):$/;"	f
+delete	libraries/requests/requests/api.py	/^def delete(url, **kwargs):$/;"	f
+delete	libraries/requests/requests/sessions.py	/^    def delete(self, url, **kwargs):$/;"	m	class:Session
+deregister_hook	libraries/requests/requests/models.py	/^    def deregister_hook(self, event, hook):$/;"	m	class:RequestHooksMixin
+description	libraries/requests/setup.py	/^    description=about['__description__'],$/;"	v
+dict_from_cookiejar	libraries/requests/requests/utils.py	/^def dict_from_cookiejar(cj):$/;"	f
+dict_to_sequence	libraries/requests/requests/utils.py	/^def dict_to_sequence(d):$/;"	f
+digest_auth_algo	libraries/requests/tests/test_requests.py	/^    digest_auth_algo = ('MD5', 'SHA-256', 'SHA-512')$/;"	v	class:TestRequests
+digest_failed_response_handler	libraries/requests/tests/test_lowlevel.py	/^    def digest_failed_response_handler(sock):$/;"	f	function:test_digestauth_401_only_sent_once
+digest_response_handler	libraries/requests/tests/test_lowlevel.py	/^    def digest_response_handler(sock):$/;"	f	function:test_digestauth_401_count_reset_on_redirect
+digest_response_handler	libraries/requests/tests/test_lowlevel.py	/^    def digest_response_handler(sock):$/;"	f	function:test_digestauth_only_on_4xx
+dispatch_hook	libraries/requests/requests/hooks.py	/^def dispatch_hook(key, hooks, hook_data, **kwargs):$/;"	f
+doc	libraries/requests/requests/status_codes.py	/^    def doc(code):$/;"	f	function:_init
+dotted_netmask	libraries/requests/requests/utils.py	/^def dotted_netmask(mask):$/;"	f
+end	libraries/requests/docs/make.bat	/^:end$/;"	l
+epub_author	libraries/requests/docs/conf.py	/^epub_author = author$/;"	v
+epub_copyright	libraries/requests/docs/conf.py	/^epub_copyright = copyright$/;"	v
+epub_exclude_files	libraries/requests/docs/conf.py	/^epub_exclude_files = ["search.html"]$/;"	v
+epub_publisher	libraries/requests/docs/conf.py	/^epub_publisher = author$/;"	v
+epub_title	libraries/requests/docs/conf.py	/^epub_title = project$/;"	v
+exclude_patterns	libraries/requests/docs/conf.py	/^exclude_patterns = ["_build"]$/;"	v
+extensions	libraries/requests/docs/conf.py	/^extensions = [$/;"	v
+extract_cookies_to_jar	libraries/requests/requests/cookies.py	/^def extract_cookies_to_jar(jar, request, response):$/;"	f
+extract_zipped_paths	libraries/requests/requests/utils.py	/^def extract_zipped_paths(path):$/;"	f
+extras_require	libraries/requests/setup.py	/^    extras_require={$/;"	v
+finalize_options	libraries/requests/setup.py	/^    def finalize_options(self):$/;"	m	class:PyTest
+from_key_val_list	libraries/requests/requests/utils.py	/^def from_key_val_list(value):$/;"	f
+generate	libraries/requests/requests/models.py	/^        def generate():$/;"	f	function:Response.iter_content
+get	libraries/requests/requests/api.py	/^def get(url, params=None, **kwargs):$/;"	f
+get	libraries/requests/requests/cookies.py	/^    def get(self, name, default=None, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+get	libraries/requests/requests/sessions.py	/^    def get(self, url, **kwargs):$/;"	m	class:Session
+get	libraries/requests/requests/structures.py	/^    def get(self, key, default=None):$/;"	m	class:LookupDict
+get_adapter	libraries/requests/requests/sessions.py	/^    def get_adapter(self, url):$/;"	m	class:Session
+get_auth_from_url	libraries/requests/requests/utils.py	/^def get_auth_from_url(url):$/;"	f
+get_connection	libraries/requests/requests/adapters.py	/^    def get_connection(self, url, proxies=None):$/;"	m	class:HTTPAdapter
+get_cookie_header	libraries/requests/requests/cookies.py	/^def get_cookie_header(jar, request):$/;"	f
+get_dict	libraries/requests/requests/cookies.py	/^    def get_dict(self, domain=None, path=None):$/;"	m	class:RequestsCookieJar
+get_encoding_from_headers	libraries/requests/requests/utils.py	/^def get_encoding_from_headers(headers):$/;"	f
+get_encodings_from_content	libraries/requests/requests/utils.py	/^def get_encodings_from_content(content):$/;"	f
+get_environ_proxies	libraries/requests/requests/utils.py	/^def get_environ_proxies(url, no_proxy=None):$/;"	f
+get_full_url	libraries/requests/requests/cookies.py	/^    def get_full_url(self):$/;"	m	class:MockRequest
+get_header	libraries/requests/requests/cookies.py	/^    def get_header(self, name, default=None):$/;"	m	class:MockRequest
+get_host	libraries/requests/requests/cookies.py	/^    def get_host(self):$/;"	m	class:MockRequest
+get_item_parameters	libraries/requests/tests/test_structures.py	/^    get_item_parameters = pytest.mark.parametrize($/;"	v	class:TestLookupDict
+get_netrc_auth	libraries/requests/requests/utils.py	/^def get_netrc_auth(url, raise_errors=False):$/;"	f
+get_netrc_auth_mock	libraries/requests/tests/test_requests.py	/^            def get_netrc_auth_mock(url):$/;"	f	function:TestRequests.test_basicauth_with_netrc
+get_new_headers	libraries/requests/requests/cookies.py	/^    def get_new_headers(self):$/;"	m	class:MockRequest
+get_origin_req_host	libraries/requests/requests/cookies.py	/^    def get_origin_req_host(self):$/;"	m	class:MockRequest
+get_policy	libraries/requests/requests/cookies.py	/^    def get_policy(self):$/;"	m	class:RequestsCookieJar
+get_redirect_target	libraries/requests/requests/sessions.py	/^    def get_redirect_target(self, resp):$/;"	m	class:SessionRedirectMixin
+get_redirect_target	libraries/requests/tests/test_requests.py	/^            def get_redirect_target(self, resp):$/;"	m	class:TestRequests.test_custom_redirect_mixin.CustomRedirectSession
+get_type	libraries/requests/requests/cookies.py	/^    def get_type(self):$/;"	m	class:MockRequest
+get_unicode_from_response	libraries/requests/requests/utils.py	/^def get_unicode_from_response(r):$/;"	f
+getheaders	libraries/requests/requests/cookies.py	/^    def getheaders(self, name):$/;"	m	class:MockResponse
+guess_filename	libraries/requests/requests/utils.py	/^def guess_filename(obj):$/;"	f
+guess_json_utf	libraries/requests/requests/utils.py	/^def guess_json_utf(data):$/;"	f
+handle_401	libraries/requests/requests/auth.py	/^    def handle_401(self, r, **kwargs):$/;"	m	class:HTTPDigestAuth
+handle_redirect	libraries/requests/requests/auth.py	/^    def handle_redirect(self, r, **kwargs):$/;"	m	class:HTTPDigestAuth
+handler	libraries/requests/tests/test_testserver.py	/^        def handler(sock):$/;"	f	function:TestTestServer.test_basic
+has_header	libraries/requests/requests/cookies.py	/^    def has_header(self, name):$/;"	m	class:MockRequest
+head	libraries/requests/requests/api.py	/^def head(url, **kwargs):$/;"	f
+head	libraries/requests/requests/sessions.py	/^    def head(self, url, **kwargs):$/;"	m	class:Session
+here	libraries/requests/setup.py	/^here = os.path.abspath(os.path.dirname(__file__))$/;"	v
+hook	libraries/requests/tests/test_hooks.py	/^def hook(value):$/;"	f
+hook	libraries/requests/tests/test_requests.py	/^        def hook(resp, **kwargs):$/;"	f	function:TestRequests.test_hook_receives_request_arguments
+hook	libraries/requests/tests/test_requests.py	/^        def hook(resp, **kwargs):$/;"	f	function:TestRequests.test_prepared_request_hook
+host	libraries/requests/requests/cookies.py	/^    def host(self):$/;"	m	class:MockRequest
+html_show_copyright	libraries/requests/docs/conf.py	/^html_show_copyright = True$/;"	v
+html_show_sourcelink	libraries/requests/docs/conf.py	/^html_show_sourcelink = False$/;"	v
+html_show_sphinx	libraries/requests/docs/conf.py	/^html_show_sphinx = False$/;"	v
+html_sidebars	libraries/requests/docs/conf.py	/^html_sidebars = {$/;"	v
+html_static_path	libraries/requests/docs/conf.py	/^html_static_path = ["_static"]$/;"	v
+html_theme	libraries/requests/docs/conf.py	/^html_theme = "alabaster"$/;"	v
+html_theme_options	libraries/requests/docs/conf.py	/^html_theme_options = {$/;"	v
+html_use_smartypants	libraries/requests/docs/conf.py	/^html_use_smartypants = False$/;"	v
+htmlhelp_basename	libraries/requests/docs/conf.py	/^htmlhelp_basename = "Requestsdoc"$/;"	v
+http_proxies	libraries/requests/tests/test_utils.py	/^http_proxies = {'http': 'http:\/\/http.proxy',$/;"	v
+httpbin	libraries/requests/tests/conftest.py	/^def httpbin(httpbin):$/;"	f
+httpbin_secure	libraries/requests/tests/conftest.py	/^def httpbin_secure(httpbin_secure):$/;"	f
+include_package_data	libraries/requests/setup.py	/^    include_package_data=True,$/;"	v
+info	libraries/requests/requests/cookies.py	/^    def info(self):$/;"	m	class:MockResponse
+info	libraries/requests/requests/help.py	/^def info():$/;"	f
+init_per_thread_state	libraries/requests/requests/auth.py	/^    def init_per_thread_state(self):$/;"	m	class:HTTPDigestAuth
+init_poolmanager	libraries/requests/requests/adapters.py	/^    def init_poolmanager(self, connections, maxsize, block=DEFAULT_POOLBLOCK, **pool_kwargs):$/;"	m	class:HTTPAdapter
+initialize_options	libraries/requests/setup.py	/^    def initialize_options(self):$/;"	m	class:PyTest
+inner	libraries/requests/tests/conftest.py	/^    def inner(*suffix):$/;"	f	function:prepare_url
+install_requires	libraries/requests/setup.py	/^    install_requires=requires,$/;"	v
+integer_types	libraries/requests/requests/compat.py	/^    integer_types = (int, long)$/;"	v
+integer_types	libraries/requests/requests/compat.py	/^    integer_types = (int,)$/;"	v
+intersphinx_mapping	libraries/requests/docs/conf.py	/^intersphinx_mapping = {$/;"	v
+is_ipv4_address	libraries/requests/requests/utils.py	/^def is_ipv4_address(string_ip):$/;"	f
+is_permanent_redirect	libraries/requests/requests/models.py	/^    def is_permanent_redirect(self):$/;"	m	class:Response
+is_py2	libraries/requests/requests/compat.py	/^is_py2 = (_ver[0] == 2)$/;"	v
+is_py3	libraries/requests/requests/compat.py	/^is_py3 = (_ver[0] == 3)$/;"	v
+is_redirect	libraries/requests/requests/models.py	/^    def is_redirect(self):$/;"	m	class:Response
+is_unverifiable	libraries/requests/requests/cookies.py	/^    def is_unverifiable(self):$/;"	m	class:MockRequest
+is_valid_cidr	libraries/requests/requests/utils.py	/^def is_valid_cidr(string_network):$/;"	f
+items	libraries/requests/requests/cookies.py	/^    def items(self):$/;"	m	class:RequestsCookieJar
+iter_content	libraries/requests/requests/models.py	/^    def iter_content(self, chunk_size=1, decode_unicode=False):$/;"	m	class:Response
+iter_lines	libraries/requests/requests/models.py	/^    def iter_lines(self, chunk_size=ITER_CHUNK_SIZE, decode_unicode=False, delimiter=None):$/;"	m	class:Response
+iter_slices	libraries/requests/requests/utils.py	/^def iter_slices(string, slice_length):$/;"	f
+iteritems	libraries/requests/requests/cookies.py	/^    def iteritems(self):$/;"	m	class:RequestsCookieJar
+iterkeys	libraries/requests/requests/cookies.py	/^    def iterkeys(self):$/;"	m	class:RequestsCookieJar
+itervalues	libraries/requests/requests/cookies.py	/^    def itervalues(self):$/;"	m	class:RequestsCookieJar
+json	libraries/requests/requests/models.py	/^    def json(self, **kwargs):$/;"	m	class:Response
+keys	libraries/requests/requests/cookies.py	/^    def keys(self):$/;"	m	class:RequestsCookieJar
+language	libraries/requests/docs/conf.py	/^language = None$/;"	v
+latex_documents	libraries/requests/docs/conf.py	/^latex_documents = [$/;"	v
+latex_elements	libraries/requests/docs/conf.py	/^latex_elements = {$/;"	v
+license	libraries/requests/setup.py	/^    license=about['__license__'],$/;"	v
+links	libraries/requests/requests/models.py	/^    def links(self):$/;"	m	class:Response
+list_domains	libraries/requests/requests/cookies.py	/^    def list_domains(self):$/;"	m	class:RequestsCookieJar
+list_paths	libraries/requests/requests/cookies.py	/^    def list_paths(self):$/;"	m	class:RequestsCookieJar
+long_description	libraries/requests/setup.py	/^    long_description=readme,$/;"	v
+long_description_content_type	libraries/requests/setup.py	/^    long_description_content_type='text\/markdown',$/;"	v
+lower_items	libraries/requests/requests/structures.py	/^    def lower_items(self):$/;"	m	class:CaseInsensitiveDict
+main	libraries/requests/requests/help.py	/^def main():$/;"	f
+man_pages	libraries/requests/docs/conf.py	/^man_pages = [(master_doc, "requests", u"Requests Documentation", [author], 1)]$/;"	v
+marks	libraries/requests/tests/test_utils.py	/^                         marks=pytest.mark.skipif('cStringIO is None')),$/;"	v	class:TestSuperLen
+master_doc	libraries/requests/docs/conf.py	/^master_doc = "index"$/;"	v
+md5_utf8	libraries/requests/requests/auth.py	/^            def md5_utf8(x):$/;"	f	function:HTTPDigestAuth.build_digest_header
+merge_cookies	libraries/requests/requests/cookies.py	/^def merge_cookies(cookiejar, cookies):$/;"	f
+merge_environment_settings	libraries/requests/requests/sessions.py	/^    def merge_environment_settings(self, url, proxies, stream, verify, cert):$/;"	m	class:Session
+merge_hooks	libraries/requests/requests/sessions.py	/^def merge_hooks(request_hooks, session_hooks, dict_class=OrderedDict):$/;"	f
+merge_setting	libraries/requests/requests/sessions.py	/^def merge_setting(request_setting, session_setting, dict_class=OrderedDict):$/;"	f
+mixed_proxies	libraries/requests/tests/test_utils.py	/^mixed_proxies = {'http': 'http:\/\/http.proxy',$/;"	v
+morsel_to_cookie	libraries/requests/requests/cookies.py	/^def morsel_to_cookie(morsel):$/;"	f
+mount	libraries/requests/requests/sessions.py	/^    def mount(self, prefix, adapter):$/;"	m	class:Session
+multiple_domains	libraries/requests/requests/cookies.py	/^    def multiple_domains(self):$/;"	m	class:RequestsCookieJar
+name	libraries/requests/setup.py	/^    name=about['__title__'],$/;"	v
+next	libraries/requests/requests/models.py	/^    def next(self):$/;"	m	class:Response
+no_proxy	libraries/requests/tests/test_utils.py	/^    def no_proxy(self, request, monkeypatch):$/;"	m	class:TestGetEnvironProxies
+normalize_percent_encode	libraries/requests/tests/test_requests.py	/^        def normalize_percent_encode(x):$/;"	f	function:TestPreparingURLs.test_preparing_url
+numeric_types	libraries/requests/requests/compat.py	/^    numeric_types = (int, float)$/;"	v
+numeric_types	libraries/requests/requests/compat.py	/^    numeric_types = (int, long, float)$/;"	v
+ok	libraries/requests/requests/models.py	/^    def ok(self):$/;"	m	class:Response
+options	libraries/requests/requests/api.py	/^def options(url, **kwargs):$/;"	f
+options	libraries/requests/requests/sessions.py	/^    def options(self, url, **kwargs):$/;"	m	class:Session
+origin_req_host	libraries/requests/requests/cookies.py	/^    def origin_req_host(self):$/;"	m	class:MockRequest
+override_environ	libraries/requests/tests/utils.py	/^def override_environ(**kwargs):$/;"	f
+package_data	libraries/requests/setup.py	/^    package_data={'': ['LICENSE', 'NOTICE']},$/;"	v
+package_dir	libraries/requests/setup.py	/^    package_dir={'requests': 'requests'},$/;"	v
+packages	libraries/requests/setup.py	/^    packages=packages,$/;"	v
+packages	libraries/requests/setup.py	/^packages = ['requests']$/;"	v
+parse_dict_header	libraries/requests/requests/utils.py	/^def parse_dict_header(value):$/;"	f
+parse_header_links	libraries/requests/requests/utils.py	/^def parse_header_links(value):$/;"	f
+parse_list_header	libraries/requests/requests/utils.py	/^def parse_list_header(value):$/;"	f
+patch	libraries/requests/requests/api.py	/^def patch(url, data=None, **kwargs):$/;"	f
+patch	libraries/requests/requests/sessions.py	/^    def patch(self, url, data=None, **kwargs):$/;"	m	class:Session
+path_url	libraries/requests/requests/models.py	/^    def path_url(self):$/;"	m	class:RequestEncodingMixin
+possible_keys	libraries/requests/tests/test_structures.py	/^    possible_keys = pytest.mark.parametrize('key', ('accept', 'ACCEPT', 'aCcEpT', 'Accept'))$/;"	v	class:TestCaseInsensitiveDict
+post	libraries/requests/requests/api.py	/^def post(url, data=None, json=None, **kwargs):$/;"	f
+post	libraries/requests/requests/sessions.py	/^    def post(self, url, data=None, json=None, **kwargs):$/;"	m	class:Session
+preferred_clock	libraries/requests/requests/sessions.py	/^        preferred_clock = time.clock$/;"	v
+preferred_clock	libraries/requests/requests/sessions.py	/^        preferred_clock = time.perf_counter$/;"	v
+preferred_clock	libraries/requests/requests/sessions.py	/^    preferred_clock = time.time$/;"	v
+prepare	libraries/requests/requests/models.py	/^    def prepare(self):$/;"	m	class:Request
+prepare	libraries/requests/requests/models.py	/^    def prepare(self,$/;"	m	class:PreparedRequest
+prepare_auth	libraries/requests/requests/models.py	/^    def prepare_auth(self, auth, url=''):$/;"	m	class:PreparedRequest
+prepare_body	libraries/requests/requests/models.py	/^    def prepare_body(self, data, files, json=None):$/;"	m	class:PreparedRequest
+prepare_content_length	libraries/requests/requests/models.py	/^    def prepare_content_length(self, body):$/;"	m	class:PreparedRequest
+prepare_cookies	libraries/requests/requests/models.py	/^    def prepare_cookies(self, cookies):$/;"	m	class:PreparedRequest
+prepare_headers	libraries/requests/requests/models.py	/^    def prepare_headers(self, headers):$/;"	m	class:PreparedRequest
+prepare_hooks	libraries/requests/requests/models.py	/^    def prepare_hooks(self, hooks):$/;"	m	class:PreparedRequest
+prepare_method	libraries/requests/requests/models.py	/^    def prepare_method(self, method):$/;"	m	class:PreparedRequest
+prepare_request	libraries/requests/requests/sessions.py	/^    def prepare_request(self, request):$/;"	m	class:Session
+prepare_url	libraries/requests/requests/models.py	/^    def prepare_url(self, url, params):$/;"	m	class:PreparedRequest
+prepare_url	libraries/requests/tests/conftest.py	/^def prepare_url(value):$/;"	f
+prepend_scheme_if_needed	libraries/requests/requests/utils.py	/^def prepend_scheme_if_needed(url, new_scheme):$/;"	f
+project	libraries/requests/docs/conf.py	/^project = u"Requests"$/;"	v
+project_urls	libraries/requests/setup.py	/^    project_urls={$/;"	v
+proxy_bypass	libraries/requests/requests/utils.py	/^    def proxy_bypass(host):  # noqa$/;"	f
+proxy_bypass_registry	libraries/requests/requests/utils.py	/^    def proxy_bypass_registry(host):$/;"	f
+proxy_headers	libraries/requests/requests/adapters.py	/^    def proxy_headers(self, proxy):$/;"	m	class:HTTPAdapter
+proxy_manager_for	libraries/requests/requests/adapters.py	/^    def proxy_manager_for(self, proxy, **proxy_kwargs):$/;"	m	class:HTTPAdapter
+put	libraries/requests/requests/api.py	/^def put(url, data=None, **kwargs):$/;"	f
+put	libraries/requests/requests/sessions.py	/^    def put(self, url, data=None, **kwargs):$/;"	m	class:Session
+pygments_style	libraries/requests/docs/conf.py	/^pygments_style = "flask_theme_support.FlaskyStyle"$/;"	v
+pyopenssl	libraries/requests/requests/help.py	/^    pyopenssl = None$/;"	v
+raise_for_status	libraries/requests/requests/models.py	/^    def raise_for_status(self):$/;"	m	class:Response
+read	libraries/requests/tests/test_requests.py	/^            def read(self, size=None):$/;"	m	class:TestRequests.test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.TestStream
+read_mock	libraries/requests/tests/test_requests.py	/^        def read_mock(amt, decode_content=None):$/;"	f	function:TestRequests.test_response_is_iterable
+readme	libraries/requests/setup.py	/^    readme = f.read()$/;"	v	class:PyTest
+rebuild_auth	libraries/requests/requests/sessions.py	/^    def rebuild_auth(self, prepared_request, response):$/;"	m	class:SessionRedirectMixin
+rebuild_method	libraries/requests/requests/sessions.py	/^    def rebuild_method(self, prepared_request, response):$/;"	m	class:SessionRedirectMixin
+rebuild_proxies	libraries/requests/requests/sessions.py	/^    def rebuild_proxies(self, prepared_request, proxies):$/;"	m	class:SessionRedirectMixin
+redirect_resp_handler	libraries/requests/tests/test_lowlevel.py	/^    def redirect_resp_handler(sock):$/;"	f	function:test_redirect_rfc1808_to_non_ascii_location
+register_hook	libraries/requests/requests/models.py	/^    def register_hook(self, event, hook):$/;"	m	class:RequestHooksMixin
+release	libraries/requests/docs/conf.py	/^release = requests.__version__$/;"	v
+remove_cookie_by_name	libraries/requests/requests/cookies.py	/^def remove_cookie_by_name(cookiejar, name, domain=None, path=None):$/;"	f
+request	libraries/requests/requests/api.py	/^def request(method, url, **kwargs):$/;"	f
+request	libraries/requests/requests/sessions.py	/^    def request(self, method, url,$/;"	m	class:Session
+request_url	libraries/requests/requests/adapters.py	/^    def request_url(self, request, proxies):$/;"	m	class:HTTPAdapter
+requires	libraries/requests/setup.py	/^requires = [$/;"	v
+requote_uri	libraries/requests/requests/utils.py	/^def requote_uri(uri):$/;"	f
+resolve_redirects	libraries/requests/requests/sessions.py	/^    def resolve_redirects(self, resp, req, stream=False, timeout=None,$/;"	m	class:SessionRedirectMixin
+response_handler	libraries/requests/tests/test_lowlevel.py	/^    def response_handler(sock):$/;"	f	function:test_fragment_not_sent_with_request
+response_handler	libraries/requests/tests/test_lowlevel.py	/^    def response_handler(sock):$/;"	f	function:test_fragment_update_on_redirect
+rewind_body	libraries/requests/requests/utils.py	/^def rewind_body(prepared_request):$/;"	f
+run	libraries/requests/tests/testserver/server.py	/^    def run(self):$/;"	m	class:Server
+run_tests	libraries/requests/setup.py	/^    def run_tests(self):$/;"	m	class:PyTest
+seek	libraries/requests/tests/test_requests.py	/^            def seek(self, offset, where=0):$/;"	m	class:TestRequests.test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.TestStream
+seek	libraries/requests/tests/test_requests.py	/^            def seek(self, pos, whence=0):$/;"	m	class:TestRequests.test_rewind_body_failed_seek.BadFileObj
+seek	libraries/requests/tests/test_utils.py	/^            def seek(self, offset, whence):$/;"	m	class:TestSuperLen.test_super_len_tell_ioerror.NoLenBoomFile
+select_proxy	libraries/requests/requests/utils.py	/^def select_proxy(url, proxies):$/;"	f
+send	libraries/requests/requests/adapters.py	/^    def send(self, request, stream=False, timeout=None, verify=True, cert=None, proxies=None):$/;"	m	class:HTTPAdapter
+send	libraries/requests/requests/adapters.py	/^    def send(self, request, stream=False, timeout=None, verify=True,$/;"	m	class:BaseAdapter
+send	libraries/requests/requests/sessions.py	/^    def send(self, request, **kwargs):$/;"	m	class:Session
+send	libraries/requests/tests/test_requests.py	/^    def send(self, *args, **kwargs):$/;"	m	class:RedirectSession
+session	libraries/requests/requests/sessions.py	/^def session():$/;"	f
+set	libraries/requests/requests/cookies.py	/^    def set(self, name, value, **kwargs):$/;"	m	class:RequestsCookieJar
+set_cookie	libraries/requests/requests/cookies.py	/^    def set_cookie(self, cookie, *args, **kwargs):$/;"	m	class:RequestsCookieJar
+set_environ	libraries/requests/requests/utils.py	/^def set_environ(env_name, value):$/;"	f
+setup	libraries/requests/tests/test_structures.py	/^    def setup(self):$/;"	m	class:TestCaseInsensitiveDict
+setup	libraries/requests/tests/test_structures.py	/^    def setup(self):$/;"	m	class:TestLookupDict
+sha256_utf8	libraries/requests/requests/auth.py	/^            def sha256_utf8(x):$/;"	f	function:HTTPDigestAuth.build_digest_header
+sha512_utf8	libraries/requests/requests/auth.py	/^            def sha512_utf8(x):$/;"	f	function:HTTPDigestAuth.build_digest_header
+sha_utf8	libraries/requests/requests/auth.py	/^            def sha_utf8(x):$/;"	f	function:HTTPDigestAuth.build_digest_header
+should_bypass_proxies	libraries/requests/requests/utils.py	/^def should_bypass_proxies(url, no_proxy):$/;"	f
+should_strip_auth	libraries/requests/requests/sessions.py	/^    def should_strip_auth(self, old_url, new_url):$/;"	m	class:SessionRedirectMixin
+source_suffix	libraries/requests/docs/conf.py	/^source_suffix = ".rst"$/;"	v
+sphinx_ok	libraries/requests/docs/make.bat	/^:sphinx_ok$/;"	l
+sphinx_python	libraries/requests/docs/make.bat	/^:sphinx_python$/;"	l
+ssl	libraries/requests/requests/__init__.py	/^        ssl = None$/;"	v
+str	libraries/requests/requests/compat.py	/^    str = str$/;"	v
+str	libraries/requests/requests/compat.py	/^    str = unicode$/;"	v
+stream_decode_response_unicode	libraries/requests/requests/utils.py	/^def stream_decode_response_unicode(iterator, r):$/;"	f
+styles	libraries/requests/docs/_themes/flask_theme_support.py	/^    styles = {$/;"	v	class:FlaskyStyle
+super_len	libraries/requests/requests/utils.py	/^def super_len(o):$/;"	f
+tell	libraries/requests/tests/test_requests.py	/^            def tell(self):$/;"	m	class:TestRequests.test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER.TestStream
+tell	libraries/requests/tests/test_requests.py	/^            def tell(self):$/;"	m	class:TestRequests.test_rewind_body_failed_seek.BadFileObj
+tell	libraries/requests/tests/test_requests.py	/^            def tell(self):$/;"	m	class:TestRequests.test_rewind_body_failed_tell.BadFileObj
+tell	libraries/requests/tests/test_requests.py	/^            def tell(self):$/;"	m	class:TestRequests.test_rewind_body_no_seek.BadFileObj
+tell	libraries/requests/tests/test_utils.py	/^            def tell(self):$/;"	m	class:TestSuperLen.test_super_len_handles_files_raising_weird_errors_in_tell.BoomFile
+tell	libraries/requests/tests/test_utils.py	/^            def tell(self):$/;"	m	class:TestSuperLen.test_super_len_tell_ioerror.NoLenBoomFile
+templates_path	libraries/requests/docs/conf.py	/^templates_path = ["_templates"]$/;"	v
+test_BASICAUTH_TUPLE_HTTP_200_OK_GET	libraries/requests/tests/test_requests.py	/^    def test_BASICAUTH_TUPLE_HTTP_200_OK_GET(self, httpbin):$/;"	m	class:TestRequests
+test_DIGESTAUTH_QUOTES_QOP_VALUE	libraries/requests/tests/test_requests.py	/^    def test_DIGESTAUTH_QUOTES_QOP_VALUE(self, httpbin):$/;"	m	class:TestRequests
+test_DIGESTAUTH_WRONG_HTTP_401_GET	libraries/requests/tests/test_requests.py	/^    def test_DIGESTAUTH_WRONG_HTTP_401_GET(self, httpbin):$/;"	m	class:TestRequests
+test_DIGEST_AUTH_RETURNS_COOKIE	libraries/requests/tests/test_requests.py	/^    def test_DIGEST_AUTH_RETURNS_COOKIE(self, httpbin):$/;"	m	class:TestRequests
+test_DIGEST_AUTH_SETS_SESSION_COOKIES	libraries/requests/tests/test_requests.py	/^    def test_DIGEST_AUTH_SETS_SESSION_COOKIES(self, httpbin):$/;"	m	class:TestRequests
+test_DIGEST_HTTP_200_OK_GET	libraries/requests/tests/test_requests.py	/^    def test_DIGEST_HTTP_200_OK_GET(self, httpbin):$/;"	m	class:TestRequests
+test_DIGEST_STREAM	libraries/requests/tests/test_requests.py	/^    def test_DIGEST_STREAM(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_200_OK_GET_ALTERNATIVE	libraries/requests/tests/test_requests.py	/^    def test_HTTP_200_OK_GET_ALTERNATIVE(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_200_OK_GET_WITH_MIXED_PARAMS	libraries/requests/tests/test_requests.py	/^    def test_HTTP_200_OK_GET_WITH_MIXED_PARAMS(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_200_OK_GET_WITH_PARAMS	libraries/requests/tests/test_requests.py	/^    def test_HTTP_200_OK_GET_WITH_PARAMS(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_200_OK_HEAD	libraries/requests/tests/test_requests.py	/^    def test_HTTP_200_OK_HEAD(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_200_OK_PUT	libraries/requests/tests/test_requests.py	/^    def test_HTTP_200_OK_PUT(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_302_ALLOW_REDIRECT_GET	libraries/requests/tests/test_requests.py	/^    def test_HTTP_302_ALLOW_REDIRECT_GET(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_302_TOO_MANY_REDIRECTS	libraries/requests/tests/test_requests.py	/^    def test_HTTP_302_TOO_MANY_REDIRECTS(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_302_TOO_MANY_REDIRECTS_WITH_PARAMS	libraries/requests/tests/test_requests.py	/^    def test_HTTP_302_TOO_MANY_REDIRECTS_WITH_PARAMS(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_307_ALLOW_REDIRECT_POST	libraries/requests/tests/test_requests.py	/^    def test_HTTP_307_ALLOW_REDIRECT_POST(self, httpbin):$/;"	m	class:TestRequests
+test_HTTP_307_ALLOW_REDIRECT_POST_WITH_SEEKABLE	libraries/requests/tests/test_requests.py	/^    def test_HTTP_307_ALLOW_REDIRECT_POST_WITH_SEEKABLE(self, httpbin):$/;"	m	class:TestRequests
+test_POSTBIN_GET_POST_FILES	libraries/requests/tests/test_requests.py	/^    def test_POSTBIN_GET_POST_FILES(self, httpbin):$/;"	m	class:TestRequests
+test_POSTBIN_GET_POST_FILES_WITH_DATA	libraries/requests/tests/test_requests.py	/^    def test_POSTBIN_GET_POST_FILES_WITH_DATA(self, httpbin):$/;"	m	class:TestRequests
+test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER	libraries/requests/tests/test_requests.py	/^    def test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER(self, httpbin):$/;"	m	class:TestRequests
+test__parse_content_type_header	libraries/requests/tests/test_utils.py	/^def test__parse_content_type_header(value, expected):$/;"	f
+test_add_dict_to_cookiejar	libraries/requests/tests/test_utils.py	/^def test_add_dict_to_cookiejar(cookiejar):$/;"	f
+test_auth_is_retained_for_redirect_on_host	libraries/requests/tests/test_requests.py	/^    def test_auth_is_retained_for_redirect_on_host(self, httpbin):$/;"	m	class:TestRequests
+test_auth_is_stripped_on_http_downgrade	libraries/requests/tests/test_requests.py	/^    def test_auth_is_stripped_on_http_downgrade(self, httpbin, httpbin_secure, httpbin_ca_bundle):$/;"	m	class:TestRequests
+test_autoset_header_values_are_native	libraries/requests/tests/test_requests.py	/^    def test_autoset_header_values_are_native(self, httpbin):$/;"	m	class:TestRequests
+test_bad_utf_like_encoding	libraries/requests/tests/test_utils.py	/^    def test_bad_utf_like_encoding(self):$/;"	m	class:TestGuessJSONUTF
+test_basic	libraries/requests/tests/test_testserver.py	/^    def test_basic(self):$/;"	m	class:TestTestServer
+test_basic_auth_str_is_always_native	libraries/requests/tests/test_requests.py	/^    def test_basic_auth_str_is_always_native(self, username, password, auth_str):$/;"	m	class:TestRequests
+test_basic_building	libraries/requests/tests/test_requests.py	/^    def test_basic_building(self):$/;"	m	class:TestRequests
+test_basic_response	libraries/requests/tests/test_testserver.py	/^    def test_basic_response(self):$/;"	m	class:TestTestServer
+test_basic_waiting_server	libraries/requests/tests/test_testserver.py	/^    def test_basic_waiting_server(self):$/;"	m	class:TestTestServer
+test_basicauth_encodes_byte_strings	libraries/requests/tests/test_requests.py	/^    def test_basicauth_encodes_byte_strings(self):$/;"	m	class:TestRequests
+test_basicauth_with_netrc	libraries/requests/tests/test_requests.py	/^    def test_basicauth_with_netrc(self, httpbin):$/;"	m	class:TestRequests
+test_binary_put	libraries/requests/tests/test_requests.py	/^    def test_binary_put(self):$/;"	m	class:TestRequests
+test_bypass	libraries/requests/tests/test_utils.py	/^    def test_bypass(self, url):$/;"	m	class:TestGetEnvironProxies
+test_bypass_no_proxy_keyword	libraries/requests/tests/test_utils.py	/^    def test_bypass_no_proxy_keyword(self, url):$/;"	m	class:TestGetEnvironProxies
+test_can_access_chardet_attribute	libraries/requests/tests/test_packages.py	/^def test_can_access_chardet_attribute():$/;"	f
+test_can_access_idna_attribute	libraries/requests/tests/test_packages.py	/^def test_can_access_idna_attribute():$/;"	f
+test_can_access_urllib3_attribute	libraries/requests/tests/test_packages.py	/^def test_can_access_urllib3_attribute():$/;"	f
+test_can_send_file_object_with_non_string_filename	libraries/requests/tests/test_requests.py	/^    def test_can_send_file_object_with_non_string_filename(self, httpbin):$/;"	m	class:TestRequests
+test_can_send_objects_with_files	libraries/requests/tests/test_requests.py	/^    def test_can_send_objects_with_files(self, httpbin, files):$/;"	m	class:TestRequests
+test_cannot_send_unprepared_requests	libraries/requests/tests/test_requests.py	/^    def test_cannot_send_unprepared_requests(self, httpbin):$/;"	m	class:TestRequests
+test_certificate_failure	libraries/requests/tests/test_requests.py	/^    def test_certificate_failure(self, httpbin_secure):$/;"	m	class:TestRequests
+test_chunked_upload	libraries/requests/tests/test_lowlevel.py	/^def test_chunked_upload():$/;"	f
+test_chunked_upload_does_not_set_content_length_header	libraries/requests/tests/test_requests.py	/^    def test_chunked_upload_does_not_set_content_length_header(self, httpbin):$/;"	m	class:TestRequests
+test_conflicting_post_params	libraries/requests/tests/test_requests.py	/^    def test_conflicting_post_params(self, httpbin):$/;"	m	class:TestRequests
+test_connect_timeout	libraries/requests/tests/test_requests.py	/^    def test_connect_timeout(self, timeout):$/;"	m	class:TestTimeout
+test_contains	libraries/requests/tests/test_requests.py	/^    def test_contains(self):$/;"	m	class:TestCaseInsensitiveDict
+test_cookie_as_dict_items	libraries/requests/tests/test_requests.py	/^    def test_cookie_as_dict_items(self):$/;"	m	class:TestRequests
+test_cookie_as_dict_keeps_items	libraries/requests/tests/test_requests.py	/^    def test_cookie_as_dict_keeps_items(self):$/;"	m	class:TestRequests
+test_cookie_as_dict_keeps_len	libraries/requests/tests/test_requests.py	/^    def test_cookie_as_dict_keeps_len(self):$/;"	m	class:TestRequests
+test_cookie_as_dict_keys	libraries/requests/tests/test_requests.py	/^    def test_cookie_as_dict_keys(self):$/;"	m	class:TestRequests
+test_cookie_as_dict_values	libraries/requests/tests/test_requests.py	/^    def test_cookie_as_dict_values(self):$/;"	m	class:TestRequests
+test_cookie_duplicate_names_different_domains	libraries/requests/tests/test_requests.py	/^    def test_cookie_duplicate_names_different_domains(self):$/;"	m	class:TestRequests
+test_cookie_duplicate_names_raises_cookie_conflict_error	libraries/requests/tests/test_requests.py	/^    def test_cookie_duplicate_names_raises_cookie_conflict_error(self):$/;"	m	class:TestRequests
+test_cookie_parameters	libraries/requests/tests/test_requests.py	/^    def test_cookie_parameters(self):$/;"	m	class:TestRequests
+test_cookie_persists_via_api	libraries/requests/tests/test_requests.py	/^    def test_cookie_persists_via_api(self, httpbin):$/;"	m	class:TestRequests
+test_cookie_policy_copy	libraries/requests/tests/test_requests.py	/^    def test_cookie_policy_copy(self):$/;"	m	class:TestRequests
+test_cookie_quote_wrapped	libraries/requests/tests/test_requests.py	/^    def test_cookie_quote_wrapped(self, httpbin):$/;"	m	class:TestRequests
+test_cookie_removed_on_expire	libraries/requests/tests/test_requests.py	/^    def test_cookie_removed_on_expire(self, httpbin):$/;"	m	class:TestRequests
+test_cookie_sent_on_redirect	libraries/requests/tests/test_requests.py	/^    def test_cookie_sent_on_redirect(self, httpbin):$/;"	m	class:TestRequests
+test_cookielib_cookiejar_on_redirect	libraries/requests/tests/test_requests.py	/^    def test_cookielib_cookiejar_on_redirect(self, httpbin):$/;"	m	class:TestRequests
+test_copy	libraries/requests/tests/test_requests.py	/^    def test_copy(self):$/;"	m	class:TestCaseInsensitiveDict
+test_copy	libraries/requests/tests/test_structures.py	/^    def test_copy(self):$/;"	m	class:TestCaseInsensitiveDict
+test_custom_content_type	libraries/requests/tests/test_requests.py	/^    def test_custom_content_type(self, httpbin):$/;"	m	class:TestRequests
+test_custom_redirect_mixin	libraries/requests/tests/test_requests.py	/^    def test_custom_redirect_mixin(self, httpbin):$/;"	m	class:TestRequests
+test_data_argument_accepts_tuples	libraries/requests/tests/test_requests.py	/^def test_data_argument_accepts_tuples(data):$/;"	f
+test_decompress_gzip	libraries/requests/tests/test_requests.py	/^    def test_decompress_gzip(self, httpbin):$/;"	m	class:TestRequests
+test_default_hooks	libraries/requests/tests/test_hooks.py	/^def test_default_hooks():$/;"	f
+test_delitem	libraries/requests/tests/test_requests.py	/^    def test_delitem(self):$/;"	m	class:TestCaseInsensitiveDict
+test_delitem	libraries/requests/tests/test_structures.py	/^    def test_delitem(self, key):$/;"	m	class:TestCaseInsensitiveDict
+test_different_encodings_dont_break_post	libraries/requests/tests/test_requests.py	/^    def test_different_encodings_dont_break_post(self, httpbin):$/;"	m	class:TestRequests
+test_digestauth_401_count_reset_on_redirect	libraries/requests/tests/test_lowlevel.py	/^def test_digestauth_401_count_reset_on_redirect():$/;"	f
+test_digestauth_401_only_sent_once	libraries/requests/tests/test_lowlevel.py	/^def test_digestauth_401_only_sent_once():$/;"	f
+test_digestauth_only_on_4xx	libraries/requests/tests/test_lowlevel.py	/^def test_digestauth_only_on_4xx():$/;"	f
+test_docstring_example	libraries/requests/tests/test_requests.py	/^    def test_docstring_example(self):$/;"	m	class:TestCaseInsensitiveDict
+test_dotted_netmask	libraries/requests/tests/test_utils.py	/^def test_dotted_netmask(mask, expected):$/;"	f
+test_empty_content_length	libraries/requests/tests/test_requests.py	/^    def test_empty_content_length(self, httpbin, method):$/;"	m	class:TestRequests
+test_empty_response_has_content_none	libraries/requests/tests/test_requests.py	/^    def test_empty_response_has_content_none(self):$/;"	m	class:TestRequests
+test_empty_stream_with_auth_does_not_set_content_length_header	libraries/requests/tests/test_requests.py	/^    def test_empty_stream_with_auth_does_not_set_content_length_header(self, httpbin):$/;"	m	class:TestRequests
+test_encoded	libraries/requests/tests/test_utils.py	/^    def test_encoded(self, encoding):$/;"	m	class:TestGuessJSONUTF
+test_encoded_methods	libraries/requests/tests/test_requests.py	/^    def test_encoded_methods(self, httpbin):$/;"	m	class:TestTimeout
+test_entry_points	libraries/requests/tests/test_requests.py	/^    def test_entry_points(self):$/;"	m	class:TestRequests
+test_equality	libraries/requests/tests/test_requests.py	/^    def test_equality(self):$/;"	m	class:TestCaseInsensitiveDict
+test_errors	libraries/requests/tests/test_requests.py	/^    def test_errors(self, url, exception):$/;"	m	class:TestRequests
+test_expires_invalid_int	libraries/requests/tests/test_requests.py	/^    def test_expires_invalid_int(self, value, exception):$/;"	m	class:TestMorselToCookieExpires
+test_expires_none	libraries/requests/tests/test_requests.py	/^    def test_expires_none(self):$/;"	m	class:TestMorselToCookieExpires
+test_expires_valid_str	libraries/requests/tests/test_requests.py	/^    def test_expires_valid_str(self):$/;"	m	class:TestMorselToCookieExpires
+test_file	libraries/requests/tests/test_utils.py	/^    def test_file(self, tmpdir, mode, warnings_num, recwarn):$/;"	m	class:TestSuperLen
+test_fixes_1329	libraries/requests/tests/test_requests.py	/^    def test_fixes_1329(self, httpbin):$/;"	m	class:TestRequests
+test_fixes_649	libraries/requests/tests/test_requests.py	/^    def test_fixes_649(self):$/;"	m	class:TestCaseInsensitiveDict
+test_form_encoded_post_query_multivalued_element	libraries/requests/tests/test_requests.py	/^    def test_form_encoded_post_query_multivalued_element(self, httpbin):$/;"	m	class:TestRequests
+test_fragment_maintained_on_redirect	libraries/requests/tests/test_requests.py	/^    def test_fragment_maintained_on_redirect(self, httpbin):$/;"	m	class:TestRequests
+test_fragment_not_sent_with_request	libraries/requests/tests/test_lowlevel.py	/^def test_fragment_not_sent_with_request():$/;"	f
+test_fragment_update_on_redirect	libraries/requests/tests/test_lowlevel.py	/^def test_fragment_update_on_redirect():$/;"	f
+test_generic_cookiejar_works	libraries/requests/tests/test_requests.py	/^    def test_generic_cookiejar_works(self, httpbin):$/;"	m	class:TestRequests
+test_get	libraries/requests/tests/test_requests.py	/^    def test_get(self):$/;"	m	class:TestCaseInsensitiveDict
+test_get	libraries/requests/tests/test_structures.py	/^    def test_get(self, key, value):$/;"	m	class:TestLookupDict
+test_get_auth_from_url	libraries/requests/tests/test_utils.py	/^def test_get_auth_from_url(url, auth):$/;"	f
+test_get_encoding_from_headers	libraries/requests/tests/test_utils.py	/^def test_get_encoding_from_headers(value, expected):$/;"	f
+test_getitem	libraries/requests/tests/test_requests.py	/^    def test_getitem(self):$/;"	m	class:TestCaseInsensitiveDict
+test_getitem	libraries/requests/tests/test_structures.py	/^    def test_getitem(self, key):$/;"	m	class:TestCaseInsensitiveDict
+test_getitem	libraries/requests/tests/test_structures.py	/^    def test_getitem(self, key, value):$/;"	m	class:TestLookupDict
+test_guess_by_bom	libraries/requests/tests/test_utils.py	/^    def test_guess_by_bom(self, encoding, expected):$/;"	m	class:TestGuessJSONUTF
+test_guess_filename_invalid	libraries/requests/tests/test_utils.py	/^    def test_guess_filename_invalid(self, value):$/;"	m	class:TestGuessFilename
+test_guess_filename_valid	libraries/requests/tests/test_utils.py	/^    def test_guess_filename_valid(self, value, expected_type):$/;"	m	class:TestGuessFilename
+test_header_and_body_removal_on_redirect	libraries/requests/tests/test_requests.py	/^    def test_header_and_body_removal_on_redirect(self, httpbin):$/;"	m	class:TestRequests
+test_header_keys_are_native	libraries/requests/tests/test_requests.py	/^    def test_header_keys_are_native(self, httpbin):$/;"	m	class:TestRequests
+test_header_no_leading_space	libraries/requests/tests/test_requests.py	/^    def test_header_no_leading_space(self, httpbin):$/;"	m	class:TestRequests
+test_header_no_return_chars	libraries/requests/tests/test_requests.py	/^    def test_header_no_return_chars(self, httpbin):$/;"	m	class:TestRequests
+test_header_remove_is_case_insensitive	libraries/requests/tests/test_requests.py	/^    def test_header_remove_is_case_insensitive(self, httpbin):$/;"	m	class:TestRequests
+test_header_validation	libraries/requests/tests/test_requests.py	/^    def test_header_validation(self, httpbin):$/;"	m	class:TestRequests
+test_header_value_not_str	libraries/requests/tests/test_requests.py	/^    def test_header_value_not_str(self, httpbin):$/;"	m	class:TestRequests
+test_headers_on_session_with_None_are_not_sent	libraries/requests/tests/test_requests.py	/^    def test_headers_on_session_with_None_are_not_sent(self, httpbin):$/;"	m	class:TestRequests
+test_headers_preserve_order	libraries/requests/tests/test_requests.py	/^    def test_headers_preserve_order(self, httpbin):$/;"	m	class:TestRequests
+test_history_is_always_a_list	libraries/requests/tests/test_requests.py	/^    def test_history_is_always_a_list(self, httpbin):$/;"	m	class:TestRequests
+test_hook_receives_request_arguments	libraries/requests/tests/test_requests.py	/^    def test_hook_receives_request_arguments(self, httpbin):$/;"	m	class:TestRequests
+test_hooks	libraries/requests/tests/test_hooks.py	/^def test_hooks(hooks_list, result):$/;"	f
+test_http_301_changes_post_to_get	libraries/requests/tests/test_requests.py	/^    def test_http_301_changes_post_to_get(self, httpbin):$/;"	m	class:TestRequests
+test_http_301_doesnt_change_head_to_get	libraries/requests/tests/test_requests.py	/^    def test_http_301_doesnt_change_head_to_get(self, httpbin):$/;"	m	class:TestRequests
+test_http_302_changes_post_to_get	libraries/requests/tests/test_requests.py	/^    def test_http_302_changes_post_to_get(self, httpbin):$/;"	m	class:TestRequests
+test_http_302_doesnt_change_head_to_get	libraries/requests/tests/test_requests.py	/^    def test_http_302_doesnt_change_head_to_get(self, httpbin):$/;"	m	class:TestRequests
+test_http_303_changes_post_to_get	libraries/requests/tests/test_requests.py	/^    def test_http_303_changes_post_to_get(self, httpbin):$/;"	m	class:TestRequests
+test_http_303_doesnt_change_head_to_get	libraries/requests/tests/test_requests.py	/^    def test_http_303_doesnt_change_head_to_get(self, httpbin):$/;"	m	class:TestRequests
+test_http_error	libraries/requests/tests/test_requests.py	/^    def test_http_error(self):$/;"	m	class:TestRequests
+test_http_with_certificate	libraries/requests/tests/test_requests.py	/^    def test_http_with_certificate(self, httpbin):$/;"	m	class:TestRequests
+test_https_warnings	libraries/requests/tests/test_requests.py	/^    def test_https_warnings(self, httpbin_secure, httpbin_ca_bundle):$/;"	m	class:TestRequests
+test_idna_with_version_attribute	libraries/requests/tests/test_help.py	/^def test_idna_with_version_attribute(mocker):$/;"	f
+test_idna_without_version_attribute	libraries/requests/tests/test_help.py	/^def test_idna_without_version_attribute(mocker):$/;"	f
+test_init	libraries/requests/tests/test_requests.py	/^    def test_init(self, cid):$/;"	m	class:TestCaseInsensitiveDict
+test_instance_equality	libraries/requests/tests/test_structures.py	/^    def test_instance_equality(self, other, result):$/;"	m	class:TestCaseInsensitiveDict
+test_invalid	libraries/requests/tests/test_utils.py	/^    def test_invalid(self):$/;"	m	class:TestAddressInNetwork
+test_invalid	libraries/requests/tests/test_utils.py	/^    def test_invalid(self):$/;"	m	class:TestToKeyValList
+test_invalid	libraries/requests/tests/test_utils.py	/^    def test_invalid(self, value):$/;"	m	class:TestIsIPv4Address
+test_invalid	libraries/requests/tests/test_utils.py	/^    def test_invalid(self, value):$/;"	m	class:TestIsValidCIDR
+test_invalid_ca_certificate_path	libraries/requests/tests/test_requests.py	/^    def test_invalid_ca_certificate_path(self, httpbin_secure):$/;"	m	class:TestRequests
+test_invalid_files_input	libraries/requests/tests/test_requests.py	/^    def test_invalid_files_input(self, httpbin):$/;"	m	class:TestRequests
+test_invalid_ssl_certificate_files	libraries/requests/tests/test_requests.py	/^    def test_invalid_ssl_certificate_files(self, httpbin_secure):$/;"	m	class:TestRequests
+test_invalid_timeout	libraries/requests/tests/test_requests.py	/^    def test_invalid_timeout(self, httpbin, timeout, error_text):$/;"	m	class:TestTimeout
+test_invalid_url	libraries/requests/tests/test_requests.py	/^    def test_invalid_url(self, exception, url):$/;"	m	class:TestRequests
+test_io_streams	libraries/requests/tests/test_utils.py	/^    def test_io_streams(self, stream, value):$/;"	m	class:TestSuperLen
+test_is_filename	libraries/requests/tests/test_utils.py	/^    def test_is_filename(self):$/;"	m	class:TestUnquoteHeaderValue
+test_iter	libraries/requests/tests/test_requests.py	/^    def test_iter(self):$/;"	m	class:TestCaseInsensitiveDict
+test_iter_slices	libraries/requests/tests/test_utils.py	/^def test_iter_slices(value, length):$/;"	f
+test_json_encodes_as_bytes	libraries/requests/tests/test_requests.py	/^def test_json_encodes_as_bytes():$/;"	f
+test_json_param_post_content_type_works	libraries/requests/tests/test_requests.py	/^    def test_json_param_post_content_type_works(self, httpbin):$/;"	m	class:TestRequests
+test_json_param_post_should_not_override_data_param	libraries/requests/tests/test_requests.py	/^    def test_json_param_post_should_not_override_data_param(self, httpbin):$/;"	m	class:TestRequests
+test_len	libraries/requests/tests/test_requests.py	/^    def test_len(self):$/;"	m	class:TestCaseInsensitiveDict
+test_links	libraries/requests/tests/test_requests.py	/^    def test_links(self):$/;"	m	class:TestRequests
+test_list	libraries/requests/tests/test_structures.py	/^    def test_list(self):$/;"	m	class:TestCaseInsensitiveDict
+test_long_authinfo_in_url	libraries/requests/tests/test_requests.py	/^    def test_long_authinfo_in_url(self):$/;"	m	class:TestRequests
+test_lower_items	libraries/requests/tests/test_requests.py	/^    def test_lower_items(self):$/;"	m	class:TestCaseInsensitiveDict
+test_lower_items	libraries/requests/tests/test_structures.py	/^    def test_lower_items(self):$/;"	m	class:TestCaseInsensitiveDict
+test_manual_redirect_with_partial_body_read	libraries/requests/tests/test_requests.py	/^    def test_manual_redirect_with_partial_body_read(self, httpbin):$/;"	m	class:TestRequests
+test_max_age_invalid_str	libraries/requests/tests/test_requests.py	/^    def test_max_age_invalid_str(self):$/;"	m	class:TestMorselToCookieMaxAge
+test_max_age_valid_int	libraries/requests/tests/test_requests.py	/^    def test_max_age_valid_int(self):$/;"	m	class:TestMorselToCookieMaxAge
+test_mixed_case_scheme_acceptable	libraries/requests/tests/test_requests.py	/^    def test_mixed_case_scheme_acceptable(self, httpbin, scheme):$/;"	m	class:TestRequests
+test_multiple_requests	libraries/requests/tests/test_testserver.py	/^    def test_multiple_requests(self):$/;"	m	class:TestTestServer
+test_no_body_content_length	libraries/requests/tests/test_requests.py	/^    def test_no_body_content_length(self, httpbin, method):$/;"	m	class:TestRequests
+test_no_content_length	libraries/requests/tests/test_requests.py	/^    def test_no_content_length(self, httpbin, method):$/;"	m	class:TestRequests
+test_non_prepared_request_error	libraries/requests/tests/test_requests.py	/^    def test_non_prepared_request_error(self):$/;"	m	class:TestRequests
+test_none	libraries/requests/tests/test_utils.py	/^    def test_none(self):$/;"	m	class:TestContentEncodingDetection
+test_none_timeout	libraries/requests/tests/test_requests.py	/^    def test_none_timeout(self, httpbin, timeout):$/;"	m	class:TestTimeout
+test_nonhttp_schemes_dont_check_URLs	libraries/requests/tests/test_requests.py	/^    def test_nonhttp_schemes_dont_check_URLs(self):$/;"	m	class:TestRequests
+test_not_bypass	libraries/requests/tests/test_utils.py	/^    def test_not_bypass(self, url):$/;"	m	class:TestGetEnvironProxies
+test_not_bypass_no_proxy_keyword	libraries/requests/tests/test_utils.py	/^    def test_not_bypass_no_proxy_keyword(self, url, monkeypatch):$/;"	m	class:TestGetEnvironProxies
+test_override_content_length	libraries/requests/tests/test_requests.py	/^    def test_override_content_length(self, httpbin):$/;"	m	class:TestRequests
+test_param_cookiejar_works	libraries/requests/tests/test_requests.py	/^    def test_param_cookiejar_works(self, httpbin):$/;"	m	class:TestRequests
+test_parameters_for_nonstandard_schemes	libraries/requests/tests/test_requests.py	/^    def test_parameters_for_nonstandard_schemes(self, input, params, expected):$/;"	m	class:TestPreparingURLs
+test_params_are_added_before_fragment	libraries/requests/tests/test_requests.py	/^    def test_params_are_added_before_fragment(self, url, expected):$/;"	m	class:TestRequests
+test_params_are_merged_case_sensitive	libraries/requests/tests/test_requests.py	/^    def test_params_are_merged_case_sensitive(self, httpbin):$/;"	m	class:TestRequests
+test_params_bytes_are_encoded	libraries/requests/tests/test_requests.py	/^    def test_params_bytes_are_encoded(self):$/;"	m	class:TestRequests
+test_params_original_order_is_preserved_by_default	libraries/requests/tests/test_requests.py	/^    def test_params_original_order_is_preserved_by_default(self):$/;"	m	class:TestRequests
+test_parse_dict_header	libraries/requests/tests/test_utils.py	/^def test_parse_dict_header(value, expected):$/;"	f
+test_parse_header_links	libraries/requests/tests/test_utils.py	/^def test_parse_header_links(value, expected):$/;"	f
+test_path_is_not_double_encoded	libraries/requests/tests/test_requests.py	/^    def test_path_is_not_double_encoded(self):$/;"	m	class:TestRequests
+test_post_with_custom_mapping	libraries/requests/tests/test_requests.py	/^    def test_post_with_custom_mapping(self, httpbin):$/;"	m	class:TestRequests
+test_pragmas	libraries/requests/tests/test_utils.py	/^    def test_pragmas(self, content):$/;"	m	class:TestContentEncodingDetection
+test_precedence	libraries/requests/tests/test_utils.py	/^    def test_precedence(self):$/;"	m	class:TestContentEncodingDetection
+test_prepare_body_position_non_stream	libraries/requests/tests/test_requests.py	/^    def test_prepare_body_position_non_stream(self):$/;"	m	class:TestRequests
+test_prepare_request_with_bytestring_url	libraries/requests/tests/test_requests.py	/^    def test_prepare_request_with_bytestring_url(self):$/;"	m	class:TestRequests
+test_prepared_copy	libraries/requests/tests/test_requests.py	/^def test_prepared_copy(kwargs):$/;"	f
+test_prepared_from_session	libraries/requests/tests/test_requests.py	/^    def test_prepared_from_session(self, httpbin):$/;"	m	class:TestRequests
+test_prepared_request_hook	libraries/requests/tests/test_requests.py	/^    def test_prepared_request_hook(self, httpbin):$/;"	m	class:TestRequests
+test_prepared_request_is_pickleable	libraries/requests/tests/test_requests.py	/^    def test_prepared_request_is_pickleable(self, httpbin):$/;"	m	class:TestRequests
+test_prepared_request_with_file_is_pickleable	libraries/requests/tests/test_requests.py	/^    def test_prepared_request_with_file_is_pickleable(self, httpbin):$/;"	m	class:TestRequests
+test_prepared_request_with_hook_is_pickleable	libraries/requests/tests/test_requests.py	/^    def test_prepared_request_with_hook_is_pickleable(self, httpbin):$/;"	m	class:TestRequests
+test_preparing_bad_url	libraries/requests/tests/test_requests.py	/^    def test_preparing_bad_url(self, url):$/;"	m	class:TestPreparingURLs
+test_preparing_url	libraries/requests/tests/test_requests.py	/^    def test_preparing_url(self, url, expected):$/;"	m	class:TestPreparingURLs
+test_prepend_scheme_if_needed	libraries/requests/tests/test_utils.py	/^def test_prepend_scheme_if_needed(value, expected):$/;"	f
+test_preserve_key_case	libraries/requests/tests/test_requests.py	/^    def test_preserve_key_case(self):$/;"	m	class:TestCaseInsensitiveDict
+test_preserve_last_key_case	libraries/requests/tests/test_requests.py	/^    def test_preserve_last_key_case(self):$/;"	m	class:TestCaseInsensitiveDict
+test_proxy_auth	libraries/requests/tests/test_requests.py	/^    def test_proxy_auth(self):$/;"	m	class:TestRequests
+test_proxy_auth_empty_pass	libraries/requests/tests/test_requests.py	/^    def test_proxy_auth_empty_pass(self):$/;"	m	class:TestRequests
+test_proxy_env_vars_override_default	libraries/requests/tests/test_requests.py	/^def test_proxy_env_vars_override_default(var, url, proxy):$/;"	f
+test_proxy_error	libraries/requests/tests/test_requests.py	/^    def test_proxy_error(self):$/;"	m	class:TestRequests
+test_proxy_error_on_bad_url	libraries/requests/tests/test_requests.py	/^    def test_proxy_error_on_bad_url(self, httpbin, httpbin_secure):$/;"	m	class:TestRequests
+test_pyopenssl_redirect	libraries/requests/tests/test_requests.py	/^    def test_pyopenssl_redirect(self, httpbin_secure, httpbin_ca_bundle):$/;"	m	class:TestRequests
+test_read_timeout	libraries/requests/tests/test_requests.py	/^    def test_read_timeout(self, httpbin, timeout):$/;"	m	class:TestTimeout
+test_redirect_rfc1808_to_non_ascii_location	libraries/requests/tests/test_lowlevel.py	/^def test_redirect_rfc1808_to_non_ascii_location():$/;"	f
+test_redirect_with_wrong_gzipped_header	libraries/requests/tests/test_requests.py	/^    def test_redirect_with_wrong_gzipped_header(self, httpbin):$/;"	m	class:TestRequests
+test_redirecting_to_bad_url	libraries/requests/tests/test_requests.py	/^    def test_redirecting_to_bad_url(self, httpbin, url, exception):$/;"	m	class:TestPreparingURLs
+test_repr	libraries/requests/tests/test_structures.py	/^    def test_repr(self):$/;"	m	class:TestCaseInsensitiveDict
+test_repr	libraries/requests/tests/test_structures.py	/^    def test_repr(self):$/;"	m	class:TestLookupDict
+test_request_and_response_are_pickleable	libraries/requests/tests/test_requests.py	/^    def test_request_and_response_are_pickleable(self, httpbin):$/;"	m	class:TestRequests
+test_request_cookie_overrides_session_cookie	libraries/requests/tests/test_requests.py	/^    def test_request_cookie_overrides_session_cookie(self, httpbin):$/;"	m	class:TestRequests
+test_request_cookies_not_persisted	libraries/requests/tests/test_requests.py	/^    def test_request_cookies_not_persisted(self, httpbin):$/;"	m	class:TestRequests
+test_request_ok_set	libraries/requests/tests/test_requests.py	/^    def test_request_ok_set(self, httpbin):$/;"	m	class:TestRequests
+test_request_recovery	libraries/requests/tests/test_testserver.py	/^    def test_request_recovery(self):$/;"	m	class:TestTestServer
+test_request_recovery_with_bigger_timeout	libraries/requests/tests/test_testserver.py	/^    def test_request_recovery_with_bigger_timeout(self):$/;"	m	class:TestTestServer
+test_request_with_bytestring_host	libraries/requests/tests/test_requests.py	/^    def test_request_with_bytestring_host(self, httpbin):$/;"	m	class:TestRequests
+test_requests_after_timeout_are_not_received	libraries/requests/tests/test_testserver.py	/^    def test_requests_after_timeout_are_not_received(self):$/;"	m	class:TestTestServer
+test_requests_are_updated_each_time	libraries/requests/tests/test_requests.py	/^def test_requests_are_updated_each_time(httpbin):$/;"	f
+test_requests_history_is_saved	libraries/requests/tests/test_requests.py	/^    def test_requests_history_is_saved(self, httpbin):$/;"	m	class:TestRequests
+test_requests_in_history_are_not_overridden	libraries/requests/tests/test_requests.py	/^    def test_requests_in_history_are_not_overridden(self, httpbin):$/;"	m	class:TestRequests
+test_requirements	libraries/requests/setup.py	/^test_requirements = [$/;"	v
+test_requote_uri_with_unquoted_percents	libraries/requests/tests/test_utils.py	/^def test_requote_uri_with_unquoted_percents(uri, expected):$/;"	f
+test_response_chunk_size_type	libraries/requests/tests/test_requests.py	/^    def test_response_chunk_size_type(self):$/;"	m	class:TestRequests
+test_response_context_manager	libraries/requests/tests/test_requests.py	/^    def test_response_context_manager(self, httpbin):$/;"	m	class:TestRequests
+test_response_decode_unicode	libraries/requests/tests/test_requests.py	/^    def test_response_decode_unicode(self):$/;"	m	class:TestRequests
+test_response_is_iterable	libraries/requests/tests/test_requests.py	/^    def test_response_is_iterable(self):$/;"	m	class:TestRequests
+test_response_iter_lines	libraries/requests/tests/test_requests.py	/^    def test_response_iter_lines(self, httpbin):$/;"	m	class:TestRequests
+test_response_iter_lines_reentrant	libraries/requests/tests/test_requests.py	/^    def test_response_iter_lines_reentrant(self, httpbin):$/;"	m	class:TestRequests
+test_response_json_when_content_is_None	libraries/requests/tests/test_requests.py	/^    def test_response_json_when_content_is_None(self, httpbin):$/;"	m	class:TestRequests
+test_response_reason_unicode	libraries/requests/tests/test_requests.py	/^    def test_response_reason_unicode(self):$/;"	m	class:TestRequests
+test_response_reason_unicode_fallback	libraries/requests/tests/test_requests.py	/^    def test_response_reason_unicode_fallback(self):$/;"	m	class:TestRequests
+test_response_without_release_conn	libraries/requests/tests/test_requests.py	/^    def test_response_without_release_conn(self):$/;"	m	class:TestRequests
+test_rewind_body	libraries/requests/tests/test_requests.py	/^    def test_rewind_body(self):$/;"	m	class:TestRequests
+test_rewind_body_failed_seek	libraries/requests/tests/test_requests.py	/^    def test_rewind_body_failed_seek(self):$/;"	m	class:TestRequests
+test_rewind_body_failed_tell	libraries/requests/tests/test_requests.py	/^    def test_rewind_body_failed_tell(self):$/;"	m	class:TestRequests
+test_rewind_body_no_seek	libraries/requests/tests/test_requests.py	/^    def test_rewind_body_no_seek(self):$/;"	m	class:TestRequests
+test_rewind_partially_read_body	libraries/requests/tests/test_requests.py	/^    def test_rewind_partially_read_body(self):$/;"	m	class:TestRequests
+test_select_proxies	libraries/requests/tests/test_utils.py	/^def test_select_proxies(url, expected, proxies):$/;"	f
+test_server_closes	libraries/requests/tests/test_testserver.py	/^    def test_server_closes(self):$/;"	m	class:TestTestServer
+test_server_finishes_on_error	libraries/requests/tests/test_testserver.py	/^    def test_server_finishes_on_error(self):$/;"	m	class:TestTestServer
+test_server_finishes_when_no_connections	libraries/requests/tests/test_testserver.py	/^    def test_server_finishes_when_no_connections(self):$/;"	m	class:TestTestServer
+test_session_close_proxy_clear	libraries/requests/tests/test_requests.py	/^    def test_session_close_proxy_clear(self, mocker):$/;"	m	class:TestRequests
+test_session_get_adapter_prefix_matching	libraries/requests/tests/test_requests.py	/^    def test_session_get_adapter_prefix_matching(self):$/;"	m	class:TestRequests
+test_session_get_adapter_prefix_matching_is_case_insensitive	libraries/requests/tests/test_requests.py	/^    def test_session_get_adapter_prefix_matching_is_case_insensitive(self):$/;"	m	class:TestRequests
+test_session_get_adapter_prefix_matching_mixed_case	libraries/requests/tests/test_requests.py	/^    def test_session_get_adapter_prefix_matching_mixed_case(self):$/;"	m	class:TestRequests
+test_session_hooks_are_overridden_by_request_hooks	libraries/requests/tests/test_requests.py	/^    def test_session_hooks_are_overridden_by_request_hooks(self, httpbin):$/;"	m	class:TestRequests
+test_session_hooks_are_used_with_no_request_hooks	libraries/requests/tests/test_requests.py	/^    def test_session_hooks_are_used_with_no_request_hooks(self, httpbin):$/;"	m	class:TestRequests
+test_session_pickling	libraries/requests/tests/test_requests.py	/^    def test_session_pickling(self, httpbin):$/;"	m	class:TestRequests
+test_set_basicauth	libraries/requests/tests/test_requests.py	/^    def test_set_basicauth(self, httpbin, username, password):$/;"	m	class:TestRequests
+test_set_cookie_on_301	libraries/requests/tests/test_requests.py	/^    def test_set_cookie_on_301(self, httpbin):$/;"	m	class:TestRequests
+test_set_environ	libraries/requests/tests/test_utils.py	/^def test_set_environ(env_name, value):$/;"	f
+test_set_environ_raises_exception	libraries/requests/tests/test_utils.py	/^def test_set_environ_raises_exception():$/;"	f
+test_setdefault	libraries/requests/tests/test_requests.py	/^    def test_setdefault(self):$/;"	m	class:TestCaseInsensitiveDict
+test_should_bypass_proxies	libraries/requests/tests/test_utils.py	/^def test_should_bypass_proxies(url, expected, monkeypatch):$/;"	f
+test_should_bypass_proxies_no_proxy	libraries/requests/tests/test_utils.py	/^def test_should_bypass_proxies_no_proxy($/;"	f
+test_should_bypass_proxies_pass_only_hostname	libraries/requests/tests/test_utils.py	/^def test_should_bypass_proxies_pass_only_hostname(url, expected, mocker):$/;"	f
+test_should_bypass_proxies_win_registry	libraries/requests/tests/test_utils.py	/^def test_should_bypass_proxies_win_registry(url, expected, override,$/;"	f
+test_should_strip_auth_default_port	libraries/requests/tests/test_requests.py	/^    def test_should_strip_auth_default_port(self, old_uri, new_uri):$/;"	m	class:TestRequests
+test_should_strip_auth_host_change	libraries/requests/tests/test_requests.py	/^    def test_should_strip_auth_host_change(self):$/;"	m	class:TestRequests
+test_should_strip_auth_http_downgrade	libraries/requests/tests/test_requests.py	/^    def test_should_strip_auth_http_downgrade(self):$/;"	m	class:TestRequests
+test_should_strip_auth_https_upgrade	libraries/requests/tests/test_requests.py	/^    def test_should_strip_auth_https_upgrade(self):$/;"	m	class:TestRequests
+test_should_strip_auth_port_change	libraries/requests/tests/test_requests.py	/^    def test_should_strip_auth_port_change(self):$/;"	m	class:TestRequests
+test_status_raising	libraries/requests/tests/test_requests.py	/^    def test_status_raising(self, httpbin):$/;"	m	class:TestRequests
+test_stream_timeout	libraries/requests/tests/test_requests.py	/^    def test_stream_timeout(self, httpbin):$/;"	m	class:TestTimeout
+test_stream_with_auth_does_not_set_transfer_encoding_header	libraries/requests/tests/test_requests.py	/^    def test_stream_with_auth_does_not_set_transfer_encoding_header(self, httpbin):$/;"	m	class:TestRequests
+test_string	libraries/requests/tests/test_utils.py	/^    def test_string(self):$/;"	m	class:TestSuperLen
+test_super_len_correctly_calculates_len_of_partially_read_file	libraries/requests/tests/test_utils.py	/^    def test_super_len_correctly_calculates_len_of_partially_read_file(self):$/;"	m	class:TestSuperLen
+test_super_len_handles_files_raising_weird_errors_in_tell	libraries/requests/tests/test_utils.py	/^    def test_super_len_handles_files_raising_weird_errors_in_tell(self, error):$/;"	m	class:TestSuperLen
+test_super_len_tell_ioerror	libraries/requests/tests/test_utils.py	/^    def test_super_len_tell_ioerror(self, error):$/;"	m	class:TestSuperLen
+test_super_len_with__len__	libraries/requests/tests/test_utils.py	/^    def test_super_len_with__len__(self):$/;"	m	class:TestSuperLen
+test_super_len_with_fileno	libraries/requests/tests/test_utils.py	/^    def test_super_len_with_fileno(self):$/;"	m	class:TestSuperLen
+test_super_len_with_no__len__	libraries/requests/tests/test_utils.py	/^    def test_super_len_with_no__len__(self):$/;"	m	class:TestSuperLen
+test_super_len_with_no_matches	libraries/requests/tests/test_utils.py	/^    def test_super_len_with_no_matches(self):$/;"	m	class:TestSuperLen
+test_super_len_with_tell	libraries/requests/tests/test_utils.py	/^    def test_super_len_with_tell(self):$/;"	m	class:TestSuperLen
+test_system_ssl	libraries/requests/tests/test_help.py	/^def test_system_ssl():$/;"	f
+test_text_response	libraries/requests/tests/test_testserver.py	/^    def test_text_response(self):$/;"	m	class:TestTestServer
+test_time_elapsed_blank	libraries/requests/tests/test_requests.py	/^    def test_time_elapsed_blank(self, httpbin):$/;"	m	class:TestRequests
+test_to_native_string	libraries/requests/tests/test_utils.py	/^def test_to_native_string(value, expected):$/;"	f
+test_total_timeout_connect	libraries/requests/tests/test_requests.py	/^    def test_total_timeout_connect(self, timeout):$/;"	m	class:TestTimeout
+test_transfer_enc_removal_on_redirect	libraries/requests/tests/test_requests.py	/^    def test_transfer_enc_removal_on_redirect(self, httpbin):$/;"	m	class:TestRequests
+test_transport_adapter_ordering	libraries/requests/tests/test_requests.py	/^    def test_transport_adapter_ordering(self):$/;"	m	class:TestRequests
+test_unconsumed_session_response_closes_connection	libraries/requests/tests/test_requests.py	/^    def test_unconsumed_session_response_closes_connection(self, httpbin):$/;"	m	class:TestRequests
+test_unicode_get	libraries/requests/tests/test_requests.py	/^    def test_unicode_get(self, httpbin, url, params):$/;"	m	class:TestRequests
+test_unicode_header_name	libraries/requests/tests/test_requests.py	/^    def test_unicode_header_name(self, httpbin):$/;"	m	class:TestRequests
+test_unicode_is_ascii	libraries/requests/tests/test_utils.py	/^def test_unicode_is_ascii(value, expected):$/;"	f
+test_unicode_method_name	libraries/requests/tests/test_requests.py	/^    def test_unicode_method_name(self, httpbin):$/;"	m	class:TestRequests
+test_unicode_method_name_with_request_object	libraries/requests/tests/test_requests.py	/^    def test_unicode_method_name_with_request_object(self, httpbin):$/;"	m	class:TestRequests
+test_unicode_multipart_post	libraries/requests/tests/test_requests.py	/^    def test_unicode_multipart_post(self, httpbin, data):$/;"	m	class:TestRequests
+test_unicode_multipart_post_fieldnames	libraries/requests/tests/test_requests.py	/^    def test_unicode_multipart_post_fieldnames(self, httpbin):$/;"	m	class:TestRequests
+test_unquote_unreserved	libraries/requests/tests/test_utils.py	/^def test_unquote_unreserved(uri, expected):$/;"	f
+test_unzipped_paths_unchanged	libraries/requests/tests/test_utils.py	/^    def test_unzipped_paths_unchanged(self, path):$/;"	m	class:TestExtractZippedPaths
+test_update	libraries/requests/tests/test_requests.py	/^    def test_update(self):$/;"	m	class:TestCaseInsensitiveDict
+test_update_retains_unchanged	libraries/requests/tests/test_requests.py	/^    def test_update_retains_unchanged(self):$/;"	m	class:TestCaseInsensitiveDict
+test_uppercase_scheme_redirect	libraries/requests/tests/test_requests.py	/^    def test_uppercase_scheme_redirect(self, httpbin):$/;"	m	class:TestRequests
+test_url_mutation	libraries/requests/tests/test_requests.py	/^    def test_url_mutation(self, input, expected):$/;"	m	class:TestPreparingURLs
+test_urldefragauth	libraries/requests/tests/test_utils.py	/^def test_urldefragauth(url, expected):$/;"	f
+test_urlencoded_get_query_multivalued_param	libraries/requests/tests/test_requests.py	/^    def test_urlencoded_get_query_multivalued_param(self, httpbin):$/;"	m	class:TestRequests
+test_urllib3_pool_connection_closed	libraries/requests/tests/test_requests.py	/^def test_urllib3_pool_connection_closed(httpbin):$/;"	f
+test_urllib3_retries	libraries/requests/tests/test_requests.py	/^def test_urllib3_retries(httpbin):$/;"	f
+test_use_proxy_from_environment	libraries/requests/tests/test_lowlevel.py	/^def test_use_proxy_from_environment(httpbin, var, scheme):$/;"	f
+test_user_agent_transfers	libraries/requests/tests/test_requests.py	/^    def test_user_agent_transfers(self, httpbin, key):$/;"	m	class:TestRequests
+test_valid	libraries/requests/tests/test_utils.py	/^    def test_valid(self):$/;"	m	class:TestAddressInNetwork
+test_valid	libraries/requests/tests/test_utils.py	/^    def test_valid(self):$/;"	m	class:TestIsIPv4Address
+test_valid	libraries/requests/tests/test_utils.py	/^    def test_valid(self):$/;"	m	class:TestIsValidCIDR
+test_valid	libraries/requests/tests/test_utils.py	/^    def test_valid(self, value, expected):$/;"	m	class:TestToKeyValList
+test_valid	libraries/requests/tests/test_utils.py	/^    def test_valid(self, value, expected):$/;"	m	class:TestUnquoteHeaderValue
+test_whitespaces_are_removed_from_url	libraries/requests/tests/test_requests.py	/^    def test_whitespaces_are_removed_from_url(self):$/;"	m	class:TestRequests
+test_zipped_paths_extracted	libraries/requests/tests/test_utils.py	/^    def test_zipped_paths_extracted(self, tmpdir):$/;"	m	class:TestExtractZippedPaths
+tests_require	libraries/requests/setup.py	/^    tests_require=test_requirements,$/;"	v
+texinfo_documents	libraries/requests/docs/conf.py	/^texinfo_documents = [$/;"	v
+text	libraries/requests/requests/models.py	/^    def text(self):$/;"	m	class:Response
+text_response_handler	libraries/requests/tests/testserver/server.py	/^        def text_response_handler(sock):$/;"	f	function:Server.text_response_server
+text_response_server	libraries/requests/tests/testserver/server.py	/^    def text_response_server(cls, text, request_timeout=0.5, **kwargs):$/;"	m	class:Server
+to_key_val_list	libraries/requests/requests/utils.py	/^def to_key_val_list(value):$/;"	f
+to_native_string	libraries/requests/requests/_internal_utils.py	/^def to_native_string(string, encoding='ascii'):$/;"	f
+todo_include_todos	libraries/requests/docs/conf.py	/^todo_include_todos = True$/;"	v
+u	libraries/requests/tests/compat.py	/^    def u(s):$/;"	f
+unicode_is_ascii	libraries/requests/requests/_internal_utils.py	/^def unicode_is_ascii(u_string):$/;"	f
+unquote_header_value	libraries/requests/requests/utils.py	/^def unquote_header_value(value, is_filename=False):$/;"	f
+unquote_unreserved	libraries/requests/requests/utils.py	/^def unquote_unreserved(uri):$/;"	f
+unverifiable	libraries/requests/requests/cookies.py	/^    def unverifiable(self):$/;"	m	class:MockRequest
+update	libraries/requests/requests/cookies.py	/^    def update(self, other):$/;"	m	class:RequestsCookieJar
+url	libraries/requests/setup.py	/^    url=about['__url__'],$/;"	v
+urldefragauth	libraries/requests/requests/utils.py	/^def urldefragauth(url):$/;"	f
+user_options	libraries/requests/setup.py	/^    user_options = [('pytest-args=', 'a', "Arguments to pass into py.test")]$/;"	v	class:PyTest
+values	libraries/requests/requests/cookies.py	/^    def values(self):$/;"	m	class:RequestsCookieJar
+version	libraries/requests/docs/conf.py	/^version = requests.__version__$/;"	v
+version	libraries/requests/setup.py	/^    version=about['__version__'],$/;"	v
+zip_safe	libraries/requests/setup.py	/^    zip_safe=False,$/;"	v
